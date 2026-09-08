@@ -8,7 +8,7 @@ A grant. A board seat. A shared adviser. Three articles repeating one claim. Int
 
 RED THREADS gives your AI investigative craft for following money, resources, obligations, influence, and decision rights. It helps turn a hunch or a pile of records into a source-linked case, competing explanations, useful next leads, and an interactive atlas you can inspect offline.
 
-**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.1.0](https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
+**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Install from GitHub](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
 
 ## See what a connection actually carries
 
@@ -44,7 +44,7 @@ The canonical investigation lives in `case.json`. The atlas and CSV exports are 
 
 Funding, agreement, coordination, and control can coexist. Each needs evidence for its own mechanism. A successful validation checks the case's structure. A shortest path shows a route in the recorded network. A probability records an assessment. None of those is an automatic truth verdict.
 
-The v0.1.0 release has local toolkit and extracted-package checks plus an unfamiliar fictional-record inquiry and a separate correction/resume exercise. Fresh-host installation and discovery, live-web accuracy, and a quantified performance rating have not been established. See [evidence, scope, and licenses](documentation/evidence-and-licenses.md).
+Version 0.1.0 has local toolkit and extracted-package checks plus an unfamiliar fictional-record inquiry and a separate correction/resume exercise. Fresh-host installation and discovery, live-web accuracy, and a quantified performance rating have not been established. See [evidence, scope, and licenses](documentation/evidence-and-licenses.md).
 
 ## Keep going
 

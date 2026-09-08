@@ -3,7 +3,7 @@
   "title": "RED THREADS customer documentation",
   "product_version": "0.1.0",
   "case_format": 1,
-  "status": "review-needed",
+  "status": "published",
   "reviewed_at": "2026-09-08",
   "audiences": [
     "Curious researchers, journalists, policy analysts, and capable AI users approaching through a shared demo",
@@ -249,6 +249,27 @@
         "case-contract",
         "release-observations"
       ]
+    },
+    {
+      "path": "docs/index.html",
+      "type": "public orientation",
+      "task": "Understand the mechanism, open the fictional atlas and find installation",
+      "sources": [
+        "runtime",
+        "fixture",
+        "license"
+      ]
+    },
+    {
+      "path": "docs/guide.html",
+      "type": "public first-case tutorial",
+      "task": "Explore the case and generate a local atlas from the complete source skill folder",
+      "sources": [
+        "fixture",
+        "atlas",
+        "operations",
+        "runtime"
+      ]
     }
   ],
   "accessibility_reviews": [
@@ -265,6 +286,13 @@
       "scope": "Finding, understanding, action, outcome recognition, recovery, meaningful links, headings, artwork text alternative and status distinctions",
       "result": "Ready for independent review",
       "limitation": "No representative-user, browser, keyboard, screen-reader or formal conformance assessment"
+    },
+    {
+      "method": "Independent documentation-accessibility reviewer",
+      "state": "source-verified",
+      "scope": "Customer guides, static site source, actual product contracts and exact extracted-ZIP first-case commands; bounded availability delta",
+      "result": "REVIEW_PASS; zero material defects",
+      "limitation": "Static and local-command assessment; no browser, screen-reader or representative-user claim"
     }
   ],
   "verification": [
@@ -290,6 +318,35 @@
       "scope": "Sparse input, contradictory evidence, missing capability, authority boundary and completion",
       "result": "Prompts give task context and evidence distinctions without claiming unavailable tools",
       "limitation": "Static continuation review, not a new live model evaluation"
+    },
+    {
+      "method": "Public GitHub repository and Pages deployment API readback",
+      "state": "source-verified",
+      "source_commit": "2afe5cb736f3cc631bc7157da898ded91cdbde23",
+      "url": "https://github.com/Stunspot/red-threads/actions/runs/34194737535",
+      "result": "Repository public; source pushed; Pages main/docs build and deployment completed successfully",
+      "limitation": "Deployment-service observation does not establish browser interaction or live rendered-link behavior"
+    },
+    {
+      "method": "Public GitHub Actions toolkit run",
+      "state": "source-verified",
+      "environment": "Ubuntu, Python 3.10, Node.js",
+      "url": "https://github.com/Stunspot/red-threads/actions/runs/34194737410",
+      "result": "52 tests passed with no skips; source release builder and static site check passed",
+      "limitation": "Compressed ZIP bytes can differ with compression-library version; runtime member parity is checked by the builder"
+    },
+    {
+      "method": "Release asset custody",
+      "state": "source-verified",
+      "result": "Prepared private draft v0.1.0 contains ZIP, artwork, two Markdown companions, checksums and manifest. Uploaded asset digests match the completed distribution.",
+      "zip_sha256": "50ce52fb0210e21bc4e85d9948b08013a6e993ac01028187ee144dcf75efc268",
+      "limitation": "Packaged release is not public. Public installation routes use the maintained skill source until publication."
+    },
+    {
+      "method": "Public browser observation attempt",
+      "state": "reported",
+      "result": "Not executed: browser security policy verification was unavailable and access was not granted.",
+      "limitation": "No browser-security workaround used; visual appearance, keyboard operation and actual browser interactions remain unobserved."
     }
   ],
   "owner": "Sam 'stunspot' Walker / Collaborative Dynamics",
@@ -306,11 +363,11 @@
     "retirement": "Mark guides stale when their product version is unsupported; preserve versioned references and a migration destination"
   },
   "remaining_boundaries": [
-    "Independent customer documentation review pending at authorship handoff",
-    "Public repository/release links, deployed Pages and actual browser interaction pending publication checks",
+    "Packaged GitHub Release remains a private draft; public source installation is available",
+    "Live browser interaction unobserved because browser policy verification was unavailable",
     "Fresh-host installation/discovery untested",
     "Screen-reader and representative-user assessment untested",
     "Live-web factual accuracy and numerical performance claims not established"
   ],
-  "next_move": "Independent documentation/accessibility review of the exact authored files and completed site, then publication-specific link and browser observation."
+  "next_move": "Publish the prepared packaged release when authorized, then switch the installation entry points to its verified download. Observe browser behavior when permitted browser access is available; maintain the documented source installation route meanwhile."
 }
