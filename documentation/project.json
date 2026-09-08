@@ -121,6 +121,13 @@
       "id": "private-security-route",
       "state": "reported",
       "authority": "Release custodian enabled GitHub private vulnerability reporting and read back enabled=true on 2026-09-08"
+    },
+    {
+      "id": "public-release",
+      "url": "https://github.com/Stunspot/red-threads/releases/tag/v0.1.0",
+      "state": "source-verified",
+      "retrieved_at": "2026-09-08",
+      "authority": "Release custodian published v0.1.0 at 2026-09-08T11:30:37Z and read back isDraft=false, isPrerelease=false, all six public asset URLs and matching accepted asset digests."
     }
   ],
   "topics": [
@@ -132,7 +139,8 @@
         "runtime",
         "fixture",
         "license",
-        "release-observations"
+        "release-observations",
+        "public-release"
       ]
     },
     {
@@ -151,7 +159,8 @@
         "runtime",
         "official-codex",
         "official-claude",
-        "official-claude-code"
+        "official-claude-code",
+        "public-release"
       ]
     },
     {
@@ -161,7 +170,8 @@
       "sources": [
         "fixture",
         "atlas",
-        "operations"
+        "operations",
+        "public-release"
       ]
     },
     {
@@ -257,18 +267,20 @@
       "sources": [
         "runtime",
         "fixture",
-        "license"
+        "license",
+        "public-release"
       ]
     },
     {
       "path": "docs/guide.html",
       "type": "public first-case tutorial",
-      "task": "Explore the case and generate a local atlas from the complete source skill folder",
+      "task": "Explore the case and generate a local atlas from the extracted ZIP or complete source skill folder",
       "sources": [
         "fixture",
         "atlas",
         "operations",
-        "runtime"
+        "runtime",
+        "public-release"
       ]
     }
   ],
@@ -338,9 +350,15 @@
     {
       "method": "Release asset custody",
       "state": "source-verified",
-      "result": "Prepared private draft v0.1.0 contains ZIP, artwork, two Markdown companions, checksums and manifest. Uploaded asset digests match the completed distribution.",
+      "result": "Published v0.1.0 contains the complete skill ZIP, artwork, two Markdown companions, checksums and manifest. All six public asset URLs and their digests match the completed distribution.",
       "zip_sha256": "50ce52fb0210e21bc4e85d9948b08013a6e993ac01028187ee144dcf75efc268",
-      "limitation": "Packaged release is not public. Public installation routes use the maintained skill source until publication."
+      "limitation": "Published asset custody establishes availability and integrity; it does not establish fresh-host skill discovery or browser interaction.",
+      "url": "https://github.com/Stunspot/red-threads/releases/tag/v0.1.0",
+      "published_at": "2026-09-08T11:30:37Z",
+      "is_draft": false,
+      "is_prerelease": false,
+      "zip_files": 22,
+      "zip_bytes": 110884
     },
     {
       "method": "Public browser observation attempt",
@@ -363,11 +381,10 @@
     "retirement": "Mark guides stale when their product version is unsupported; preserve versioned references and a migration destination"
   },
   "remaining_boundaries": [
-    "Packaged GitHub Release remains a private draft; public source installation is available",
     "Live browser interaction unobserved because browser policy verification was unavailable",
     "Fresh-host installation/discovery untested",
     "Screen-reader and representative-user assessment untested",
     "Live-web factual accuracy and numerical performance claims not established"
   ],
-  "next_move": "Publish the prepared packaged release when authorized, then switch the installation entry points to its verified download. Observe browser behavior when permitted browser access is available; maintain the documented source installation route meanwhile."
+  "next_move": "Public v0.1.0 release is complete. Maintain the ZIP and source installation routes and act on reported user-task failures. Observe browser behavior when permitted browser access is available."
 }

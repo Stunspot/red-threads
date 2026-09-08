@@ -8,7 +8,7 @@ A grant. A board seat. A shared adviser. Three articles repeating one claim. Int
 
 RED THREADS gives your AI investigative craft for following money, resources, obligations, influence, and decision rights. It helps turn a hunch or a pile of records into a source-linked case, competing explanations, useful next leads, and an interactive atlas you can inspect offline.
 
-**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Install from GitHub](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
+**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.1.0](https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
 
 ## See what a connection actually carries
 
