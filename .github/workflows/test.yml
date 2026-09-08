@@ -24,3 +24,5 @@ jobs:
         run: python -B tools/build_release.py
       - name: Check public site links and fictional demo parity
         run: python -B tools/check_site.py
+      - name: Exercise homepage evidence selection and fallback
+        run: node tools/test_evidence_board.cjs
