@@ -6,7 +6,7 @@ The question is concrete: **who can influence a proposed compute-licensing rule,
 
 ## Generate your own atlas
 
-If you want a local copy, first [obtain the complete skill from GitHub](installation.md). In a local clone, open a terminal in `src/red-threads`, the folder containing `SKILL.md`. If you use a published skill ZIP when available, open the extracted `red-threads` folder instead. These commands use the bundled example and create a new HTML file in the parent directory, outside the skill folder. If that parent is not writable, choose a new absolute output path in your own workspace.
+If you want a local copy, first [download and extract the complete skill](installation.md). Open a terminal in the extracted `red-threads` folder containing `SKILL.md`. If you use a source clone, open its `src/red-threads` folder instead. These commands use the bundled example and create a new HTML file in the parent directory, outside the skill folder. If that parent is not writable, choose a new absolute output path in your own workspace.
 
 1. Check the case.
 

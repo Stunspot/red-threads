@@ -4,9 +4,9 @@ Install the complete `red-threads` skill folder, then confirm that your host can
 
 ## Before you start
 
-The complete skill is available now in the maintained [GitHub source folder](https://github.com/Stunspot/red-threads/tree/main/src/red-threads). Keep `src/red-threads` intact: it contains `SKILL.md`, references, knowledge, scripts, assets, examples, and license notices. A packaged ZIP will be available on [Releases](https://github.com/Stunspot/red-threads/releases) when published.
+[Download the v0.1.0 skill ZIP](https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip). Its root folder is `red-threads`, containing `SKILL.md`, references, knowledge, scripts, assets, examples, and license notices. Keep the folder intact.
 
-Use the Codex installer route in this guide, or obtain a local source copy with Git:
+You can also use the Codex installer route in this guide or the maintained [GitHub source folder](https://github.com/Stunspot/red-threads/tree/main/src/red-threads). To obtain a local source copy with Git:
 
 ```text
 git clone https://github.com/Stunspot/red-threads.git
@@ -34,7 +34,7 @@ $skill-installer Install the skill from https://github.com/Stunspot/red-threads/
 
 For a manual installation instead:
 
-1. From a local clone, copy the complete `src/red-threads` folder into `.agents/skills/` inside your project, or into `~/.agents/skills/` for personal use. The final path must end in `red-threads/SKILL.md`, with no extra nested `red-threads` folder.
+1. Extract the ZIP. Copy its complete `red-threads` folder into `.agents/skills/` inside your project, or into `~/.agents/skills/` for personal use. If you use a source clone, copy its `src/red-threads` folder. The final path must end in `red-threads/SKILL.md`, with no extra nested `red-threads` folder.
 2. Open Codex in that project. In CLI or IDE, use `/skills` or type `$` to find `red-threads`. If it does not appear, restart Codex and check the folder.
 3. Invoke the skill explicitly for the fictional first case. Confirm that the host reads the installed `SKILL.md` and can reach its bundled example.
 
@@ -42,7 +42,7 @@ After using the installer, perform the same discovery and first-case checks in s
 
 ## Claude: uploaded custom skill
 
-This route requires the packaged skill ZIP once it is published on [Releases](https://github.com/Stunspot/red-threads/releases). The maintained source is available now for the local routes described in this guide.
+Use the [v0.1.0 skill ZIP](https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip) for this route.
 
 1. Enable **Code execution and file creation** in **Settings > Capabilities**. Organization settings may govern availability.
 2. Open **Customize > Skills**, select **+**, then **+ Create skill**, then **Upload a skill**.
@@ -53,7 +53,7 @@ Use the supported skills interface rather than attaching the ZIP to an ordinary 
 
 ## Claude Code: local skill
 
-Copy the complete `src/red-threads` folder from your local clone into `~/.claude/skills/` for personal use or `.claude/skills/` within the project. Confirm that the final file is `red-threads/SKILL.md`, then invoke `/red-threads`. Restart if a newly created skills directory is not detected. See [Claude Code's official skill instructions](https://code.claude.com/docs/en/skills), checked 2026-09-08. Fresh-host discovery for this release remains untested.
+Copy the complete `red-threads` folder from the extracted ZIP into `~/.claude/skills/` for personal use or `.claude/skills/` within the project. If you use a source clone, copy its `src/red-threads` folder. Confirm that the final file is `red-threads/SKILL.md`, then invoke `/red-threads`. Restart if a newly created skills directory is not detected. See [Claude Code's official skill instructions](https://code.claude.com/docs/en/skills), checked 2026-09-08. Fresh-host discovery for this release remains untested.
 
 ## Confirm your first result
 
