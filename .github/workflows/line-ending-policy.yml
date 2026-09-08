@@ -1,0 +1,16 @@
+name: Line ending policy
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  line-ending-policy:
+    name: line-ending-policy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: Stunspot/testforge/line-ending-policy@14ee15dce2231cf3eade3b7b0f379d706f96fe6b
