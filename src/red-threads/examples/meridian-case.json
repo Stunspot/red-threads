@@ -1,0 +1,1168 @@
+{
+  "schema_version": 1,
+  "case": {
+    "id": "meridian-fictional",
+    "title": "The Meridian File - fictional training case",
+    "question": "Who can influence the proposed compute-licensing rule, through which actual mechanisms, and what would distinguish funder direction from coordinated or independent agreement?",
+    "updated_at": "2026-09-08T02:00:00Z",
+    "scope": "Entirely fictional people, organizations, events, documents, amounts, and quotations. Teach investigative distinctions; this is not evidence about real actors.",
+    "notes": "Start with Cobalt -> Meridian -> licensing rule. Inspect the narrow approval right, compare the reporting ancestry, and filter appointments by year. Removing Cobalt tests visible connectivity only; the surviving Mira -> review panel -> Standards Office path merits role-specific inquiry, not a claim of control. All source locators refer to invented teaching records summarized here; no external documents are claimed to exist.",
+    "priors": [
+      {
+        "attribution": "Fictional case requester",
+        "statement": "I suspect a shared patron is synchronizing both the institute and the incumbent lab. Preserve this as my starting hypothesis while testing mechanisms."
+      }
+    ],
+    "journal": [
+      {
+        "date": "2026-08-11",
+        "change": "Preserved a direction allegation from three publications, provisionally as reported."
+      },
+      {
+        "date": "2026-08-13",
+        "change": "Traced all three publications to one grant announcement. Marked broad direction disputed; retained the separate documented approval right over Meridian's funded brief."
+      },
+      {
+        "date": "2026-08-14",
+        "change": "Appointment dates refuted simultaneous employment; retained the retracted assertion for audit and continued investigating the later advisory role."
+      },
+      {
+        "date": "2026-09-08",
+        "change": "Added explicit analytical dependencies, multi-parent correction ancestry, editorial view curation and a resumable fictional collection frontier. All original teaching facts and statuses are retained."
+      }
+    ],
+    "views": {
+      "group_order": [
+        "Resources and authority",
+        "Industry and dependencies",
+        "Policy machinery",
+        "Public narrative"
+      ],
+      "group_hubs": {
+        "Resources and authority": "cobalt",
+        "Industry and dependencies": "astera",
+        "Policy machinery": "office",
+        "Public narrative": "sentinel"
+      },
+      "overview": {
+        "Resources and authority": [
+          "cobalt",
+          "meridian",
+          "leo",
+          "brief",
+          "packet"
+        ],
+        "Industry and dependencies": [
+          "astera",
+          "cloudspan",
+          "harbor"
+        ],
+        "Policy machinery": [
+          "mira",
+          "office",
+          "rule",
+          "procurement",
+          "panel"
+        ],
+        "Public narrative": [
+          "summit",
+          "sentinel",
+          "digest",
+          "stream"
+        ]
+      },
+      "pinned_nodes": [
+        "mira",
+        "packet"
+      ],
+      "overview_limit": 9
+    },
+    "campaign": {
+      "phase": "Discriminate the coordination mechanism",
+      "resume": "The July packet cannot explain the June endorsement. Seek an earlier authorized recipient record; retain the later bounded revision channel and compare independent incentives.",
+      "coverage": [
+        {
+          "id": "grant-terms",
+          "question": "Which approval rights were granted and exercised?",
+          "status": "covered",
+          "source_ids": [
+            "s-agreement",
+            "s-revisions"
+          ],
+          "lead_ids": [
+            "l-approval"
+          ],
+          "searches": [
+            "Teaching fixture: read sections 4 and 6, remittance appendix and revision register."
+          ]
+        },
+        {
+          "id": "shared-channel",
+          "question": "Did Astera receive common material before its endorsement?",
+          "status": "partial",
+          "source_ids": [
+            "s-revisions",
+            "s-consultation"
+          ],
+          "lead_ids": [
+            "l-packet"
+          ],
+          "searches": [
+            "Teaching fixture: compare endorsement date with packet timestamp."
+          ],
+          "remaining_gap": "No earlier authenticated recipient list or packet is supplied."
+        },
+        {
+          "id": "public-advice",
+          "question": "What did the panel actually transmit to the agency?",
+          "status": "open",
+          "lead_ids": [
+            "l-panel"
+          ],
+          "remaining_gap": "Dated recommendations and agency response remain absent from the fixture."
+        }
+      ],
+      "tasks": [
+        {
+          "id": "packet-recipients",
+          "question": "Find a recipient record early enough to explain the June endorsement.",
+          "status": "active",
+          "owner": "Case operator",
+          "return_condition": "An authorized timestamped record or the exact coverage/access limit.",
+          "source_ids": [
+            "s-revisions"
+          ],
+          "lead_ids": [
+            "l-packet"
+          ]
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "cobalt",
+      "label": "Cobalt Foundation",
+      "type": "organization",
+      "group": "Resources and authority",
+      "summary": "Fictional grantmaker. Holds limited review rights under one agreement; broad authority over Astera is unestablished.",
+      "core": true
+    },
+    {
+      "id": "meridian",
+      "label": "Meridian Institute",
+      "type": "organization",
+      "group": "Resources and authority",
+      "summary": "Fictional research institute. Grant recipient and author of a licensing-policy brief.",
+      "core": true
+    },
+    {
+      "id": "leo",
+      "label": "Leo Venn",
+      "type": "person",
+      "group": "Resources and authority",
+      "summary": "Fictional Cobalt program liaison; the agreement delegates review of the funded brief to this role.",
+      "core": false
+    },
+    {
+      "id": "brief",
+      "label": "Licensing policy brief",
+      "type": "publication",
+      "group": "Resources and authority",
+      "summary": "Fictional Meridian deliverable covered by the grant's limited approval clause.",
+      "core": true
+    },
+    {
+      "id": "packet",
+      "label": "Revision and briefing packet",
+      "type": "resource",
+      "group": "Resources and authority",
+      "summary": "Fictional attachment register records transmission within Meridian/Cobalt; no Astera recipient is yet established.",
+      "core": false
+    },
+    {
+      "id": "astera",
+      "label": "Astera AI",
+      "type": "organization",
+      "group": "Industry and dependencies",
+      "summary": "Fictional incumbent lab supporting the proposed rule; material reliance on Cloudspan does not establish exercised political pressure.",
+      "core": true
+    },
+    {
+      "id": "cloudspan",
+      "label": "Cloudspan Compute",
+      "type": "organization",
+      "group": "Industry and dependencies",
+      "summary": "Fictional infrastructure supplier with suspension rights under defined contractual conditions.",
+      "core": true
+    },
+    {
+      "id": "harbor",
+      "label": "Harbor Labs",
+      "type": "organization",
+      "group": "Industry and dependencies",
+      "summary": "Fictional small entrant challenging the proposal's fixed compliance burden.",
+      "core": false
+    },
+    {
+      "id": "mira",
+      "label": "Mira Shah",
+      "type": "person",
+      "group": "Policy machinery",
+      "summary": "Fictional researcher. Astera employment ended in 2023; Meridian advisory role began in 2024. Later panel access is a separate relationship.",
+      "core": true,
+      "aliases": [
+        "M. Shah"
+      ],
+      "identifiers": {
+        "fixture_person_id": "P-004"
+      }
+    },
+    {
+      "id": "office",
+      "label": "Standards Office",
+      "type": "organization",
+      "group": "Policy machinery",
+      "summary": "Fictional agency drafting a rule; consultation participation is not delegated rulemaking authority.",
+      "core": true
+    },
+    {
+      "id": "rule",
+      "label": "Compute-licensing proposal",
+      "type": "policy",
+      "group": "Policy machinery",
+      "summary": "Fictional proposed rule, not enacted power. Fixed audit costs and thresholds have different effects on incumbents and entrants.",
+      "core": true
+    },
+    {
+      "id": "procurement",
+      "label": "Public Procurement Unit",
+      "type": "organization",
+      "group": "Policy machinery",
+      "summary": "Fictional public unit appointing an advisory review panel; staff time and access are institutional resources.",
+      "core": false
+    },
+    {
+      "id": "panel",
+      "label": "Technical review panel",
+      "type": "program",
+      "group": "Policy machinery",
+      "summary": "Fictional advisory body with a defined remit. Its recommendations are nonbinding.",
+      "core": true
+    },
+    {
+      "id": "summit",
+      "label": "Future Systems Summit",
+      "type": "event",
+      "group": "Public narrative",
+      "summary": "Fictional shared venue. Separate attendance edges do not assert pairwise meetings or agreement.",
+      "core": false
+    },
+    {
+      "id": "sentinel",
+      "label": "Sentinel direction story",
+      "type": "publication",
+      "group": "Public narrative",
+      "summary": "Fictional original allegation overreads a grant announcement; it supplies no first-hand observation of orders to Astera.",
+      "core": true
+    },
+    {
+      "id": "digest",
+      "label": "Ledger digest",
+      "type": "publication",
+      "group": "Public narrative",
+      "summary": "Fictional derivative account citing the Sentinel story; an additional outlet is not an independent origin.",
+      "core": false
+    },
+    {
+      "id": "stream",
+      "label": "Streamcast segment",
+      "type": "publication",
+      "group": "Public narrative",
+      "summary": "Fictional downstream retelling cites the digest and inherits the same unsupported direction claim.",
+      "core": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-grant",
+      "source": "cobalt",
+      "target": "meridian",
+      "relation": "awarded a research grant to",
+      "layer": "money",
+      "status": "documented",
+      "source_ids": [
+        "s-award"
+      ],
+      "summary": "A $1.8m award establishes the funding relationship; the announcement alone does not establish editorial command.",
+      "start": "2025-01-10",
+      "end": "2026-12-31",
+      "amount": {
+        "value": 1800000,
+        "currency": "USD",
+        "kind": "grant award",
+        "period": "2025-2026"
+      },
+      "evidence": "Award notice paragraph 2: Meridian receives a two-year licensing-research award.",
+      "mechanism": "Research resources and prospective renewal dependence.",
+      "hypothesis_ids": [
+        "h-bounded",
+        "h-direction"
+      ]
+    },
+    {
+      "id": "e-disbursement",
+      "source": "cobalt",
+      "target": "meridian",
+      "relation": "disbursed the first grant installment to",
+      "layer": "money",
+      "status": "documented",
+      "source_ids": [
+        "s-agreement"
+      ],
+      "summary": "The $900,000 cash installment is part of the $1.8m award. Adding the two would double-count the same grant.",
+      "start": "2025-01-20",
+      "end": "2025-01-20",
+      "amount": {
+        "value": 900000,
+        "currency": "USD",
+        "kind": "disbursement",
+        "period": "2025-01-20"
+      },
+      "evidence": "Agreement remittance appendix B records the first installment."
+    },
+    {
+      "id": "e-approval",
+      "source": "cobalt",
+      "target": "brief",
+      "relation": "holds approval rights over the funded brief",
+      "layer": "governance",
+      "status": "documented",
+      "source_ids": [
+        "s-agreement"
+      ],
+      "summary": "Section 4 grants review and revision rights for this brief only. It gives no general authority over Meridian or Astera.",
+      "start": "2025-01-15",
+      "end": "2026-12-31",
+      "mechanism": "Contractual approval of the specified deliverable.",
+      "evidence": "Teaching paraphrase of section 4: publication of the funded brief requires liaison approval within the agreed research scope.",
+      "hypothesis_ids": [
+        "h-bounded"
+      ]
+    },
+    {
+      "id": "e-authorship",
+      "source": "meridian",
+      "target": "brief",
+      "relation": "authored",
+      "layer": "narrative",
+      "status": "documented",
+      "source_ids": [
+        "s-brief"
+      ],
+      "summary": "The brief identifies Meridian as its institutional author.",
+      "start": "2025-07-15",
+      "end": "2025-07-15"
+    },
+    {
+      "id": "e-brief-rule",
+      "source": "brief",
+      "target": "rule",
+      "relation": "advocates the proposed licensing framework",
+      "layer": "policy",
+      "status": "documented",
+      "source_ids": [
+        "s-brief"
+      ],
+      "summary": "Section 3 favors the draft framework; support for a proposal is not enacted authority.",
+      "start": "2025-07-15",
+      "end": "2025-07-15"
+    },
+    {
+      "id": "e-astera-rule",
+      "source": "astera",
+      "target": "rule",
+      "relation": "endorses in consultation",
+      "layer": "policy",
+      "status": "documented",
+      "source_ids": [
+        "s-consultation"
+      ],
+      "summary": "Astera's submission supports the framework and describes audit capacity. Its support may be sincere while also favoring incumbents.",
+      "start": "2025-06-01",
+      "end": "2025-06-01",
+      "hypothesis_ids": [
+        "h-bounded",
+        "h-direction",
+        "h-packet"
+      ]
+    },
+    {
+      "id": "e-harbor-rule",
+      "source": "harbor",
+      "target": "rule",
+      "relation": "objects to the fixed compliance burden of",
+      "layer": "policy",
+      "status": "documented",
+      "source_ids": [
+        "s-consultation"
+      ],
+      "summary": "Harbor argues the fixed audit requirement disproportionately burdens small entrants.",
+      "start": "2025-06-01",
+      "end": "2025-06-01"
+    },
+    {
+      "id": "e-mira-astera",
+      "source": "mira",
+      "target": "astera",
+      "relation": "worked as a research employee at",
+      "layer": "personnel",
+      "status": "documented",
+      "source_ids": [
+        "s-appointments"
+      ],
+      "summary": "Employment ended on 2023-12-31, before the Meridian advisory appointment began.",
+      "start": "2021-03-01",
+      "end": "2023-12-31"
+    },
+    {
+      "id": "e-mira-meridian",
+      "source": "mira",
+      "target": "meridian",
+      "relation": "serves as an external research adviser to",
+      "layer": "personnel",
+      "status": "documented",
+      "source_ids": [
+        "s-appointments"
+      ],
+      "summary": "The recorded role began 2024-04-01. Unknown termination is not proof that the role continues today.",
+      "start": "2024-04-01",
+      "date_note": "No recorded end date; verify present status before describing this as current."
+    },
+    {
+      "id": "e-leo-cobalt",
+      "source": "leo",
+      "target": "cobalt",
+      "relation": "acts as the named grant liaison for",
+      "layer": "personnel",
+      "status": "documented",
+      "source_ids": [
+        "s-agreement"
+      ],
+      "summary": "Section 6 names Leo as the point of approval for the funded brief.",
+      "start": "2025-01-15",
+      "end": "2026-12-31"
+    },
+    {
+      "id": "e-leo-revisions",
+      "source": "leo",
+      "target": "brief",
+      "relation": "requested in-scope revisions to",
+      "layer": "coordination",
+      "status": "documented",
+      "source_ids": [
+        "s-revisions",
+        "s-agreement"
+      ],
+      "summary": "Record R-07 shows actual use of a limited approval right, beyond the mere existence of funding.",
+      "start": "2025-06-28",
+      "end": "2025-07-02",
+      "mechanism": "Recorded revision request under agreement section 4.",
+      "evidence": "Teaching paraphrase R-07: clarify the audit-threshold section before approving the funded deliverable.",
+      "hypothesis_ids": [
+        "h-bounded"
+      ]
+    },
+    {
+      "id": "e-astera-cloud",
+      "source": "astera",
+      "target": "cloudspan",
+      "relation": "rents dedicated compute capacity from",
+      "layer": "infrastructure",
+      "status": "documented",
+      "source_ids": [
+        "s-infrastructure"
+      ],
+      "summary": "The service agreement creates resource dependence; its duration does not establish political alignment.",
+      "start": "2024-10-01",
+      "end": "2026-09-30",
+      "mechanism": "Dedicated capacity cannot be replaced quickly under the stated migration constraints."
+    },
+    {
+      "id": "e-cloud-suspend",
+      "source": "cloudspan",
+      "target": "astera",
+      "relation": "may suspend service for defined contractual breaches",
+      "layer": "infrastructure",
+      "status": "documented",
+      "source_ids": [
+        "s-infrastructure"
+      ],
+      "summary": "Section 8 permits suspension for nonpayment or a defined security breach. It does not authorize suspension for a policy disagreement.",
+      "start": "2024-10-01",
+      "end": "2026-09-30",
+      "mechanism": "Conditional service suspension; no exercise in this case is documented."
+    },
+    {
+      "id": "e-office-rule",
+      "source": "office",
+      "target": "rule",
+      "relation": "drafted and opened consultation on",
+      "layer": "policy",
+      "status": "documented",
+      "source_ids": [
+        "s-consultation"
+      ],
+      "summary": "The Standards Office initiated consultation; the supplied record does not show enactment.",
+      "start": "2025-05-01",
+      "end": "2025-09-30"
+    },
+    {
+      "id": "e-meridian-office",
+      "source": "meridian",
+      "target": "office",
+      "relation": "submitted its brief to",
+      "layer": "policy",
+      "status": "documented",
+      "source_ids": [
+        "s-brief"
+      ],
+      "summary": "Submission establishes institutional access to the consultation process, not adoption of the recommendations.",
+      "start": "2025-07-15",
+      "end": "2025-07-15"
+    },
+    {
+      "id": "e-astera-summit",
+      "source": "astera",
+      "target": "summit",
+      "relation": "sent a representative to",
+      "layer": "coordination",
+      "status": "documented",
+      "source_ids": [
+        "s-summit"
+      ],
+      "summary": "Recorded event attendance only; no pairwise meeting is asserted.",
+      "start": "2025-06-20",
+      "end": "2025-06-21"
+    },
+    {
+      "id": "e-meridian-summit",
+      "source": "meridian",
+      "target": "summit",
+      "relation": "sent a representative to",
+      "layer": "coordination",
+      "status": "documented",
+      "source_ids": [
+        "s-summit"
+      ],
+      "summary": "Shared venue permits a research question about contact, not a conclusion that contact occurred.",
+      "start": "2025-06-20",
+      "end": "2025-06-21"
+    },
+    {
+      "id": "e-cobalt-summit",
+      "source": "cobalt",
+      "target": "summit",
+      "relation": "provided event sponsorship to",
+      "layer": "money",
+      "status": "documented",
+      "source_ids": [
+        "s-summit"
+      ],
+      "summary": "A separate $60,000 sponsorship supported the event; sponsor status does not establish control of attendees.",
+      "start": "2025-06-20",
+      "end": "2025-06-21",
+      "amount": {
+        "value": 60000,
+        "currency": "USD",
+        "kind": "disbursement",
+        "period": "2025 summit"
+      }
+    },
+    {
+      "id": "e-sentinel-ledger",
+      "source": "sentinel",
+      "target": "digest",
+      "relation": "was cited as the origin of the direction claim by",
+      "layer": "narrative",
+      "status": "documented",
+      "source_ids": [
+        "s-digest"
+      ],
+      "summary": "The digest explicitly attributes the allegation to Sentinel. This is source dependence, not corroboration.",
+      "start": "2026-08-11",
+      "end": "2026-08-11"
+    },
+    {
+      "id": "e-ledger-stream",
+      "source": "digest",
+      "target": "stream",
+      "relation": "supplied the direction claim repeated in",
+      "layer": "narrative",
+      "status": "documented",
+      "source_ids": [
+        "s-stream"
+      ],
+      "summary": "The segment cites the digest and adds no independent observation of orders.",
+      "start": "2026-08-12",
+      "end": "2026-08-12"
+    },
+    {
+      "id": "e-direction",
+      "source": "cobalt",
+      "target": "astera",
+      "relation": "allegedly directed the licensing campaign of",
+      "layer": "coordination",
+      "status": "disputed",
+      "source_ids": [
+        "s-direction",
+        "s-digest",
+        "s-stream"
+      ],
+      "summary": "All three outlets trace to the award notice, which concerns Meridian. No orders to Astera are supplied. The disputed allegation remains available for targeted inquiry.",
+      "date_note": "The allegation assigns no reliable effective interval; article publication dates are not relationship dates.",
+      "observed_at": "2026-08-10",
+      "hypothesis_ids": [
+        "h-direction"
+      ],
+      "evidence": "Sentinel treats the Meridian award as proof of an Astera command relationship; the downstream accounts copy that inference."
+    },
+    {
+      "id": "e-retracted-overlap",
+      "source": "mira",
+      "target": "astera",
+      "relation": "was incorrectly said to hold this role alongside the Meridian post",
+      "layer": "personnel",
+      "status": "retracted",
+      "source_ids": [
+        "s-correction",
+        "s-appointments"
+      ],
+      "summary": "The simultaneity claim was retracted. The actual roles are preserved separately with non-overlapping effective dates.",
+      "observed_at": "2026-08-14",
+      "date_note": "Retracted claim; no valid period of simultaneous employment was established."
+    },
+    {
+      "id": "e-mira-packet",
+      "source": "mira",
+      "target": "packet",
+      "relation": "transmitted the recorded revision packet",
+      "layer": "coordination",
+      "status": "documented",
+      "source_ids": [
+        "s-revisions"
+      ],
+      "summary": "R-08 records Mira transmitting revisions to Meridian's authors; it does not list an Astera recipient.",
+      "start": "2025-07-02",
+      "end": "2025-07-02"
+    },
+    {
+      "id": "e-packet-brief",
+      "source": "packet",
+      "target": "brief",
+      "relation": "provided revisions incorporated into",
+      "layer": "narrative",
+      "status": "documented",
+      "source_ids": [
+        "s-revisions",
+        "s-brief"
+      ],
+      "summary": "The tracked revisions correspond to the funded brief. Whether anyone outside this recorded channel received them remains open.",
+      "start": "2025-07-02",
+      "end": "2025-07-15"
+    },
+    {
+      "id": "e-procurement-panel",
+      "source": "procurement",
+      "target": "panel",
+      "relation": "appointed and staffed",
+      "layer": "governance",
+      "status": "documented",
+      "source_ids": [
+        "s-consultation"
+      ],
+      "summary": "Public staff time and appointment rights are institutional resources even without a grant to a private organization.",
+      "start": "2025-02-01",
+      "end": "2025-09-30",
+      "mechanism": "Appointment and paid staff support within the published advisory remit."
+    },
+    {
+      "id": "e-mira-panel",
+      "source": "mira",
+      "target": "panel",
+      "relation": "holds an advisory seat on",
+      "layer": "personnel",
+      "status": "documented",
+      "source_ids": [
+        "s-appointments"
+      ],
+      "summary": "This later appointment provides a distinct access route worth inspecting after the funding node is removed.",
+      "start": "2025-02-01",
+      "end": "2025-09-30"
+    },
+    {
+      "id": "e-panel-office",
+      "source": "panel",
+      "target": "office",
+      "relation": "provides nonbinding technical recommendations to",
+      "layer": "governance",
+      "status": "documented",
+      "source_ids": [
+        "s-consultation"
+      ],
+      "summary": "Recommendations are advisory. The panel has no documented veto over the agency's final draft.",
+      "start": "2025-02-01",
+      "end": "2025-09-30",
+      "mechanism": "Agenda access and technical advice; no delegated final decision right."
+    },
+    {
+      "id": "e-common-incentive",
+      "source": "astera",
+      "target": "meridian",
+      "relation": "may converge with under distinct incentives",
+      "layer": "policy",
+      "status": "inferred",
+      "source_ids": [
+        "s-consultation",
+        "s-brief",
+        "s-agreement"
+      ],
+      "summary": "Astera can absorb fixed audit costs; Meridian's funded brief favors licensing. These different constraints can produce compatible positions without cross-organization orders.",
+      "mechanism": "Analytical explanation to compare against a shared briefing channel or broader patron direction.",
+      "hypothesis_ids": [
+        "h-bounded"
+      ],
+      "date_note": "An explanatory relationship, not a dated communication or observed agreement.",
+      "depends_on": [
+        "edges:e-approval",
+        "edges:e-astera-rule",
+        "edges:e-brief-rule"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-award",
+      "title": "FICTIONAL: Cobalt grant announcement",
+      "locator": "Invented award notice, paragraph 2: $1.8m awarded for Meridian's licensing research, 2025-2026.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-01-10",
+      "retrieved_at": "2026-08-14"
+    },
+    {
+      "id": "s-agreement",
+      "title": "FICTIONAL: Signed grant agreement and remittance appendix",
+      "locator": "Invented agreement: section 4 limits approval to the funded brief; section 6 names the liaison; appendix B records $900,000 disbursed.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-01-15",
+      "retrieved_at": "2026-08-14",
+      "note": "Agreement terms and payment evidence are separate observations within this teaching record. Award and disbursement are not additive spending."
+    },
+    {
+      "id": "s-appointments",
+      "title": "FICTIONAL: Role and appointment register",
+      "locator": "Invented entries P-004/A: Astera 2021-03-01 through 2023-12-31; P-004/B: Meridian from 2024-04-01; P-004/C: advisory panel from 2025-02-01.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-02-01",
+      "retrieved_at": "2026-08-14",
+      "note": "Distinct effective periods; an open end records no known termination, not proof of present employment."
+    },
+    {
+      "id": "s-summit",
+      "title": "FICTIONAL: Summit attendance and sponsorship register",
+      "locator": "Invented June 2025 register: Astera and Meridian representatives attended; Cobalt supplied $60,000 event sponsorship.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-06-21",
+      "retrieved_at": "2026-08-14",
+      "note": "Contains no verified private meeting or shared drafting session."
+    },
+    {
+      "id": "s-consultation",
+      "title": "FICTIONAL: Consultation pack and public-panel remit",
+      "locator": "Invented 2025 pack: draft rule, Astera support, Harbor objections, procurement appointments, and nonbinding panel remit.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-06-01",
+      "retrieved_at": "2026-08-14"
+    },
+    {
+      "id": "s-brief",
+      "title": "FICTIONAL: Meridian brief and submission receipt",
+      "locator": "Invented brief cover names Meridian; section 3 favors licensing; annex records submission to the Standards Office.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-07-15",
+      "retrieved_at": "2026-08-14"
+    },
+    {
+      "id": "s-infrastructure",
+      "title": "FICTIONAL: Cloudspan service agreement",
+      "locator": "Invented agreement sections 2 and 8: Astera rents dedicated capacity; suspension permitted for nonpayment or defined security breach, not political disagreement.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2024-10-01",
+      "retrieved_at": "2026-08-14",
+      "note": "Contractual capacity and economic dependence must be distinguished from actual exercise or unlawful informal threats."
+    },
+    {
+      "id": "s-direction",
+      "title": "FICTIONAL: Sentinel story alleging a patron-directed bloc",
+      "locator": "Invented story dated 2026-08-10 cites the award notice as proof that Cobalt directed both Meridian and Astera.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2026-08-10",
+      "retrieved_at": "2026-08-14",
+      "origin_id": "s-award",
+      "note": "The source's upstream document supports a grant to Meridian, not orders to Astera. No independently observed coordination is supplied."
+    },
+    {
+      "id": "s-digest",
+      "title": "FICTIONAL: Ledger retelling",
+      "locator": "Invented digest dated 2026-08-11 attributes its direction claim to Sentinel.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2026-08-11",
+      "retrieved_at": "2026-08-14",
+      "origin_id": "s-direction"
+    },
+    {
+      "id": "s-stream",
+      "title": "FICTIONAL: Streamcast retelling",
+      "locator": "Invented segment transcript at 04:20 cites the Ledger digest.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2026-08-12",
+      "retrieved_at": "2026-08-14",
+      "origin_id": "s-digest"
+    },
+    {
+      "id": "s-revisions",
+      "title": "FICTIONAL: Revision requests and attachment register",
+      "locator": "Invented record R-07: Leo requests changes within the grant remit; Mira transmits a revised packet to Meridian's authors. R-08 lists internal recipients only.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2025-07-02",
+      "retrieved_at": "2026-08-14",
+      "note": "Documents exercised limited approval over one deliverable. Whether the packet separately reached Astera is an open question."
+    },
+    {
+      "id": "s-correction",
+      "title": "FICTIONAL: Sentinel correction on simultaneous appointments",
+      "locator": "Invented correction dated 2026-08-14 retracts simultaneous Astera/Meridian employment after checking the appointment register.",
+      "publisher": "RED THREADS teaching fixture",
+      "published_at": "2026-08-14",
+      "retrieved_at": "2026-08-14",
+      "origin_id": "s-direction",
+      "note": "A correction is a downstream record of the earlier story. Appointment dates have independent support in s-appointments.",
+      "origin_ids": [
+        "s-appointments"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "h-direction",
+      "title": "Broad patron direction",
+      "statement": "Cobalt synchronized both Meridian and Astera's campaign through a common command arrangement.",
+      "status": "weakened",
+      "prior": "Fictional requester: strong starting suspicion; retain as an attributed hypothesis.",
+      "assumptions": [
+        "Cobalt had a route to direct Astera beyond its Meridian grant.",
+        "The similar policy positions reflect that route rather than separate incentives."
+      ],
+      "supports": [
+        "e-direction",
+        "e-grant",
+        "e-approval",
+        "e-astera-rule"
+      ],
+      "challenges": [
+        "e-mira-astera",
+        "e-mira-meridian",
+        "e-retracted-overlap"
+      ],
+      "predictions": [
+        "Instructions or approval records should connect Cobalt to Astera before its submission.",
+        "A shared private draft should precede the public positions."
+      ],
+      "next_test": "Obtain the relevant correspondence or recipient register through an authorized route; copied articles are insufficient.",
+      "alternative": "Cobalt exercised bounded rights over one Meridian deliverable while Astera supported the proposal for its own reasons."
+    },
+    {
+      "id": "h-bounded",
+      "title": "Bounded grant control plus parallel incentives",
+      "statement": "Cobalt shaped Meridian's funded brief through explicit limited rights, while Astera independently favored a rule compatible with its constraints.",
+      "status": "supported",
+      "assumptions": [
+        "The supplied contract scope is materially complete.",
+        "Astera's position does not require a hidden instruction to make strategic sense."
+      ],
+      "supports": [
+        "e-approval",
+        "e-leo-revisions",
+        "e-common-incentive",
+        "e-astera-rule",
+        "e-brief-rule"
+      ],
+      "challenges": [
+        "e-direction"
+      ],
+      "predictions": [
+        "Meridian's revisions should track in-scope liaison requests.",
+        "Astera's earlier policy rationale may predate any alleged shared briefing."
+      ],
+      "next_test": "Compare Astera's pre-consultation statements with dated revision records; inspect any separate agreement if discovered.",
+      "alternative": "A shared briefing channel coordinated positions despite the absence of broad funder command."
+    },
+    {
+      "id": "h-packet",
+      "title": "Shared briefing channel without a central controller",
+      "statement": "An intermediary distributed a common packet that helped coordinate positions across organizations, without requiring Cobalt to command Astera.",
+      "status": "open",
+      "assumptions": [
+        "Astera received materially similar nonpublic material before its relevant policy statements.",
+        "Shared-venue contact led to transmission rather than merely co-presence."
+      ],
+      "supports": [
+        "e-mira-packet",
+        "e-packet-brief",
+        "e-astera-summit",
+        "e-meridian-summit"
+      ],
+      "challenges": [
+        "e-astera-rule"
+      ],
+      "predictions": [
+        "Recipient records should include an Astera contact, with a date that can precede the position being explained.",
+        "Distinctive edits or shared errors should appear across the relevant drafts."
+      ],
+      "next_test": "Check packet recipients and timestamps. Astera's 2025-06-01 endorsement predates the documented 2025-07-02 packet, so this packet cannot explain that initial endorsement.",
+      "alternative": "Participants independently used public consultation material; the packet only coordinated Meridian's later revisions."
+    }
+  ],
+  "leads": [
+    {
+      "id": "l-approval",
+      "question": "Did any separate instrument extend Cobalt's rights beyond this specific brief?",
+      "rationale": "A narrower documented right cannot establish broader command; a second agreement would materially change the mechanism map.",
+      "status": "open",
+      "priority": "high",
+      "edge_ids": [
+        "e-approval",
+        "e-direction"
+      ],
+      "node_ids": [
+        "cobalt",
+        "astera",
+        "meridian"
+      ],
+      "source_ids": [
+        "s-agreement"
+      ],
+      "expected_observation": "An authenticated additional agreement or direction record connecting Cobalt and Astera.",
+      "alternative_result": "A scoped search yields only the bounded Meridian agreement; report coverage and access limits, not universal absence.",
+      "decision_value": "high",
+      "effort": "medium",
+      "custodian": "Agreement custodian",
+      "record_type": "Signed agreement, amendment or approval clause",
+      "query": "Exact parties, instrument ID and approval scope before the consultation"
+    },
+    {
+      "id": "l-packet",
+      "question": "Who received the packet, and when?",
+      "rationale": "Recipient and timing evidence can distinguish a shared coordination channel from independent convergence.",
+      "status": "pursuing",
+      "priority": "high",
+      "edge_ids": [
+        "e-mira-packet",
+        "e-astera-rule"
+      ],
+      "source_ids": [
+        "s-revisions"
+      ],
+      "expected_observation": "Authorized recipient register and version timestamps.",
+      "alternative_result": "No pre-endorsement delivery is established; the July packet cannot cause Astera's June endorsement.",
+      "decision_value": "high",
+      "effort": "medium",
+      "custodian": "Authorized correspondence or records custodian",
+      "record_type": "Recipient register and versioned briefing packet",
+      "query": "Astera recipient and authenticated timestamp before 2025-06-01"
+    },
+    {
+      "id": "l-origins",
+      "question": "Do the three direction reports provide independent observations?",
+      "rationale": "Source volume can inflate an allegation when all outlets repeat one origin.",
+      "status": "answered",
+      "priority": "high",
+      "edge_ids": [
+        "e-direction",
+        "e-sentinel-ledger",
+        "e-ledger-stream"
+      ],
+      "source_ids": [
+        "s-direction",
+        "s-digest",
+        "s-stream"
+      ],
+      "answer": "No independent observation is present in the teaching records. The chain leads back to a grant announcement about Meridian."
+    },
+    {
+      "id": "l-panel",
+      "question": "What recommendations did Mira's review panel actually send to the agency?",
+      "rationale": "Removing the funder leaves a public-role access path whose concrete output matters more than mere connectivity.",
+      "status": "open",
+      "priority": "medium",
+      "node_ids": [
+        "mira",
+        "panel",
+        "office"
+      ],
+      "edge_ids": [
+        "e-mira-panel",
+        "e-panel-office"
+      ],
+      "expected_observation": "Dated recommendations, authorship records, and agency treatment of the advice.",
+      "alternative_result": "Attendance without attributable advice, or agency rejection, narrows the influence claim.",
+      "decision_value": "medium",
+      "effort": "low",
+      "custodian": "Public Procurement Unit or Standards Office",
+      "record_type": "Panel recommendations and agency response",
+      "query": "Technical review panel recommendations submitted in the 2025 consultation"
+    },
+    {
+      "id": "l-supplier",
+      "question": "Was service dependence used to exert policy pressure?",
+      "rationale": "Suspension capability and switching costs may create leverage, but exercise is unobserved.",
+      "status": "parked",
+      "priority": "low",
+      "node_ids": [
+        "astera",
+        "cloudspan"
+      ],
+      "edge_ids": [
+        "e-astera-cloud",
+        "e-cloud-suspend"
+      ],
+      "expected_observation": "Revive only if authorized correspondence, a service dispute, or a direct account links supply conditions to the policy position.",
+      "alternative_result": "Ordinary service administration consistent with the existing terms; do not expand merely because the supplier is important.",
+      "decision_value": "low",
+      "effort": "high",
+      "custodian": "Authorized contract or service-dispute record custodian",
+      "record_type": "Conditional demand or service-dispute record",
+      "query": "Authenticated link between Cloudspan supply conditions and the policy position"
+    }
+  ],
+  "games": [
+    {
+      "id": "g-renewal",
+      "title": "The brief, the renewal, and the incumbent",
+      "kind": "bargaining",
+      "summary": "A qualitative conditional model: Cobalt and Meridian bargain within a funded deliverable's scope; Astera has an independent policy position and compute constraints. No common payoff function, hidden agreement, or equilibrium is asserted.",
+      "players": [
+        {
+          "node_id": "cobalt",
+          "objective": "Obtain the agreed research deliverable in a form the liaison approves.",
+          "basis": "s-agreement section 4 and s-revisions; broader political aims remain inferred.",
+          "constraints": [
+            "Approval is limited to the named brief and scope.",
+            "Payments already due are not automatically discretionary."
+          ],
+          "outside_options": [
+            "Fund a different future research project, subject to existing obligations."
+          ],
+          "moves": [
+            "Request in-scope revision.",
+            "Approve delivery.",
+            "Negotiate a future award."
+          ]
+        },
+        {
+          "node_id": "meridian",
+          "objective": "Publish the research and maintain organizational resources.",
+          "basis": "Documented authorship and funding; the preference for renewal is an explicit model assumption.",
+          "constraints": [
+            "Acceptable deliverable requires contractual approval.",
+            "Institutional credibility can be damaged by undisclosed outside direction."
+          ],
+          "outside_options": [
+            "Seek another funder.",
+            "Publish separate unfunded work consistent with actual agreements."
+          ],
+          "moves": [
+            "Accept in-scope edits.",
+            "Contest an out-of-scope request.",
+            "Document and negotiate the disagreement."
+          ]
+        },
+        {
+          "node_id": "astera",
+          "objective": "Support a workable licensing framework while retaining market access.",
+          "basis": "s-consultation; an incumbent advantage from fixed costs is an analytical inference, not a statement of secret motive.",
+          "constraints": [
+            "Dedicated capacity has migration costs.",
+            "The supplied service contract permits suspension only on specified grounds."
+          ],
+          "outside_options": [
+            "Propose narrower audit thresholds.",
+            "Change infrastructure supplier over time."
+          ],
+          "moves": [
+            "Endorse the rule independently.",
+            "Submit amendments.",
+            "Participate in a documented coalition if one is established."
+          ]
+        }
+      ],
+      "sequence": [
+        "Grant and review rights are agreed in January.",
+        "Astera endorses the proposal on June 1.",
+        "The shared event occurs June 20-21.",
+        "Meridian's revision packet is sent July 2 and its brief is submitted July 15."
+      ],
+      "scenarios": [
+        {
+          "label": "Bounded revision, independent endorsement",
+          "assumptions": [
+            "Approval stays inside the contract scope.",
+            "Astera's independent rationale is sufficient to explain its position."
+          ],
+          "implications": [
+            "Meridian's edits follow liaison requests.",
+            "Compatible positions need no shared controller."
+          ],
+          "signals": [
+            "Dated in-scope revision trail.",
+            "Astera rationale predating the packet."
+          ]
+        },
+        {
+          "label": "A genuine shared channel",
+          "assumptions": [
+            "An earlier nonpublic packet or meeting is established.",
+            "The common material reached the relevant decision makers before the position being explained."
+          ],
+          "implications": [
+            "Some coordination may be supported without broad patron command."
+          ],
+          "signals": [
+            "Verified recipients and timestamps.",
+            "Distinctive common drafts or instructions."
+          ]
+        },
+        {
+          "label": "Pressure beyond the agreement",
+          "assumptions": [
+            "A credible threat connects a resource decision to out-of-scope policy demands.",
+            "The recipient lacks a timely substitute."
+          ],
+          "implications": [
+            "Practical leverage may exceed formal approval rights, but this requires new evidence."
+          ],
+          "signals": [
+            "Authenticated conditional threat.",
+            "Subsequent response consistent with that specific threat."
+          ]
+        }
+      ],
+      "depends_on": [
+        "hypotheses:h-bounded",
+        "hypotheses:h-packet",
+        "edges:e-astera-cloud",
+        "edges:e-cloud-suspend"
+      ]
+    }
+  ]
+}

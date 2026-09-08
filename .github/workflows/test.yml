@@ -1,0 +1,26 @@
+name: RED THREADS checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  toolkit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.10'
+      - name: Confirm renderer-test runtime
+        run: node --version
+      - name: Exercise case operations and actual renderer logic
+        run: python -B -m unittest discover -s tests -v
+      - name: Build release from source
+        run: python -B tools/build_release.py
+      - name: Check public site links and fictional demo parity
+        run: python -B tools/check_site.py

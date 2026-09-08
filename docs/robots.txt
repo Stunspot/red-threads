@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /red-threads/
+Sitemap: https://stunspot.github.io/red-threads/sitemap.xml

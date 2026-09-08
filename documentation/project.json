@@ -1,0 +1,316 @@
+{
+  "project_id": "RED-THREADS-DOC-001",
+  "title": "RED THREADS customer documentation",
+  "product_version": "0.1.0",
+  "case_format": 1,
+  "status": "review-needed",
+  "reviewed_at": "2026-09-08",
+  "audiences": [
+    "Curious researchers, journalists, policy analysts, and capable AI users approaching through a shared demo",
+    "Case owners returning to correct or continue an investigation",
+    "Software contributors reproducing a toolkit defect"
+  ],
+  "top_tasks": [
+    "Understand and explore a fictional result",
+    "Download and install through a supported host route",
+    "Create a first local atlas",
+    "Investigate evidence, identities, money, decision rights, rivals, and actor games",
+    "Correct a premise, apply a guarded revision, and resume",
+    "Protect case custody and obtain support"
+  ],
+  "sources": [
+    {
+      "id": "runtime",
+      "path": "src/red-threads/SKILL.md",
+      "state": "source-verified",
+      "authority": "Accepted v0.1.0 skill contract and reading routes"
+    },
+    {
+      "id": "case-contract",
+      "path": "src/red-threads/references/case-format.md",
+      "state": "source-verified",
+      "authority": "Case format 1, exact commands, patch and correction semantics"
+    },
+    {
+      "id": "operations",
+      "path": "src/red-threads/scripts/red_threads.py",
+      "state": "source-verified",
+      "authority": "Actual CLI, validation and no-overwrite behavior"
+    },
+    {
+      "id": "dependency-operations",
+      "path": "src/red-threads/scripts/investigation_ops.py",
+      "state": "source-verified",
+      "authority": "Dependency frontier, structural scan, ranking, resume and patch operations"
+    },
+    {
+      "id": "atlas",
+      "path": "src/red-threads/assets/atlas.html",
+      "state": "source-verified",
+      "authority": "Actual view labels, source navigation and saved presentation state"
+    },
+    {
+      "id": "fixture",
+      "path": "src/red-threads/examples/meridian-case.json",
+      "state": "source-verified",
+      "authority": "All fictional tutorial facts and IDs"
+    },
+    {
+      "id": "methods",
+      "path": "src/red-threads/references",
+      "state": "source-verified",
+      "authority": "Acquisition, reconciliation, strategy, curation, campaign and review doctrine"
+    },
+    {
+      "id": "knowledge",
+      "path": "src/red-threads/knowledge/record-family-playbook.md",
+      "state": "source-verified",
+      "authority": "Read record-family and anomaly playbooks; investigative guide links into the supplied knowledge when the task needs it"
+    },
+    {
+      "id": "tests",
+      "path": "tests",
+      "state": "source-verified",
+      "authority": "Repeatable local software checks; does not establish browser or host installation"
+    },
+    {
+      "id": "release-builder",
+      "path": "tools/build_release.py",
+      "state": "source-verified",
+      "authority": "Distribution command and outputs"
+    },
+    {
+      "id": "license",
+      "path": "LICENSE.md",
+      "state": "source-verified",
+      "authority": "MIT software and CC BY-ND authored material split, upstream rights"
+    },
+    {
+      "id": "provenance",
+      "path": "src/red-threads/references/provenance.md",
+      "state": "source-verified",
+      "authority": "Source revision, adaptation and exclusion account"
+    },
+    {
+      "id": "official-codex",
+      "url": "https://learn.chatgpt.com/docs/build-skills",
+      "state": "source-verified",
+      "retrieved_at": "2026-09-08",
+      "authority": "Current local skill locations and invocation/discovery guidance"
+    },
+    {
+      "id": "official-claude",
+      "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+      "state": "source-verified",
+      "retrieved_at": "2026-09-08",
+      "authority": "Current uploaded custom skill route and prerequisites"
+    },
+    {
+      "id": "official-claude-code",
+      "url": "https://code.claude.com/docs/en/skills",
+      "state": "source-verified",
+      "retrieved_at": "2026-09-08",
+      "authority": "Current local skill directory and invocation guidance"
+    },
+    {
+      "id": "release-observations",
+      "state": "reported",
+      "authority": "Maintainer-accepted release observation: 52 tests, 51 pass and one Windows symlink skip; clean ZIP execution; fictional inquiry and separate correction/resume. Evaluation custody remains private."
+    },
+    {
+      "id": "private-security-route",
+      "state": "reported",
+      "authority": "Release custodian enabled GitHub private vulnerability reporting and read back enabled=true on 2026-09-08"
+    }
+  ],
+  "topics": [
+    {
+      "path": "README.md",
+      "type": "orientation",
+      "task": "Understand value and open the demo or download",
+      "sources": [
+        "runtime",
+        "fixture",
+        "license",
+        "release-observations"
+      ]
+    },
+    {
+      "path": "documentation/README.md",
+      "type": "navigation",
+      "task": "Find the next guide",
+      "sources": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "documentation/installation.md",
+      "type": "how-to",
+      "task": "Install, confirm discovery, update or remove",
+      "sources": [
+        "runtime",
+        "official-codex",
+        "official-claude",
+        "official-claude-code"
+      ]
+    },
+    {
+      "path": "documentation/first-case.md",
+      "type": "tutorial",
+      "task": "Generate and interpret the fictional Meridian atlas",
+      "sources": [
+        "fixture",
+        "atlas",
+        "operations"
+      ]
+    },
+    {
+      "path": "documentation/investigations.md",
+      "type": "how-to and explanation",
+      "task": "Investigate and hand off a source-linked case",
+      "sources": [
+        "methods",
+        "knowledge",
+        "case-contract"
+      ]
+    },
+    {
+      "path": "documentation/reference.md",
+      "type": "reference",
+      "task": "Look up commands, fields and controls",
+      "sources": [
+        "case-contract",
+        "operations",
+        "dependency-operations",
+        "atlas"
+      ]
+    },
+    {
+      "path": "documentation/recovery.md",
+      "type": "troubleshooting and how-to",
+      "task": "Correct, resume and restore a usable result",
+      "sources": [
+        "case-contract",
+        "operations",
+        "dependency-operations",
+        "atlas"
+      ]
+    },
+    {
+      "path": "documentation/privacy-and-support.md",
+      "type": "explanation and support",
+      "task": "Preserve custody and share safely",
+      "sources": [
+        "runtime",
+        "operations",
+        "atlas",
+        "license",
+        "private-security-route"
+      ]
+    },
+    {
+      "path": "documentation/evidence-and-licenses.md",
+      "type": "scope and rights explanation",
+      "task": "Assess evidence and reuse rights",
+      "sources": [
+        "tests",
+        "release-builder",
+        "release-observations",
+        "license",
+        "provenance"
+      ]
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "developer how-to",
+      "task": "Reproduce and contribute a bounded fix",
+      "sources": [
+        "tests",
+        "release-builder",
+        "license"
+      ]
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "support",
+      "task": "Privately report a vulnerability with fictional evidence",
+      "sources": [
+        "private-security-route",
+        "operations",
+        "atlas"
+      ]
+    },
+    {
+      "path": "CHANGELOG.md",
+      "type": "release communication",
+      "task": "Understand v0.1.0 and compatibility",
+      "sources": [
+        "runtime",
+        "case-contract",
+        "release-observations"
+      ]
+    }
+  ],
+  "accessibility_reviews": [
+    {
+      "method": "Hesperos Markdown structural lint",
+      "state": "source-verified",
+      "scope": "12 public authored Markdown files",
+      "result": "pass; zero findings",
+      "limitation": "Selected syntax heuristics only"
+    },
+    {
+      "method": "Author semantic and task-flow inspection",
+      "state": "source-verified",
+      "scope": "Finding, understanding, action, outcome recognition, recovery, meaningful links, headings, artwork text alternative and status distinctions",
+      "result": "Ready for independent review",
+      "limitation": "No representative-user, browser, keyboard, screen-reader or formal conformance assessment"
+    }
+  ],
+  "verification": [
+    {
+      "method": "Repository-relative Markdown links and anchors",
+      "state": "source-verified",
+      "scope": "55 local references in 12 authored Markdown files",
+      "result": "pass after project state created",
+      "limitation": "Public URLs and deployed Pages remain for publication checks"
+    },
+    {
+      "method": "Exact-release ZIP documentation walkthrough",
+      "state": "source-verified",
+      "environment": "Windows, Python 3.14.0",
+      "zip_sha256": "50ce52fb0210e21bc4e85d9948b08013a6e993ac01028187ee144dcf75efc268",
+      "scope": "9 operations: tutorial validate/render, existing-output rejection/new destination, documented hash form, source impact, guarded revision, resume and stale-patch rejection",
+      "result": "All expected exits and outcomes observed; original case preserved",
+      "limitation": "No fresh-host skill install/discovery and no browser opening"
+    },
+    {
+      "method": "Copyable prompt author review",
+      "state": "source-verified",
+      "scope": "Sparse input, contradictory evidence, missing capability, authority boundary and completion",
+      "result": "Prompts give task context and evidence distinctions without claiming unavailable tools",
+      "limitation": "Static continuation review, not a new live model evaluation"
+    }
+  ],
+  "owner": "Sam 'stunspot' Walker / Collaborative Dynamics",
+  "author": "Nova, applying Scribe Hesperos Clearpath",
+  "maintenance": {
+    "review_cadence": "At every release and when a reported user task fails",
+    "change_triggers": [
+      "Host skill installation or invocation changes",
+      "CLI, case format, patch semantics or output changes",
+      "Atlas controls or accessibility behavior changes",
+      "License, provenance, support route or data handling changes",
+      "New evidence expands or narrows a public claim"
+    ],
+    "retirement": "Mark guides stale when their product version is unsupported; preserve versioned references and a migration destination"
+  },
+  "remaining_boundaries": [
+    "Independent customer documentation review pending at authorship handoff",
+    "Public repository/release links, deployed Pages and actual browser interaction pending publication checks",
+    "Fresh-host installation/discovery untested",
+    "Screen-reader and representative-user assessment untested",
+    "Live-web factual accuracy and numerical performance claims not established"
+  ],
+  "next_move": "Independent documentation/accessibility review of the exact authored files and completed site, then publication-specific link and browser observation."
+}

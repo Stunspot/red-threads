@@ -1,0 +1,6 @@
+interface:
+  display_name: "RED THREADS Conspiracy Unraveler"
+  short_description: "🧵 Investigate power, money, influence, and hidden ties."
+  default_prompt: "Use $red-threads to investigate this lead, map the mechanisms, and find the next revealing evidence."
+policy:
+  allow_implicit_invocation: true
