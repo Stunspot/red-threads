@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171716">
+  <meta name="theme-color" content="#151716">
   <title>RED THREADS — Follow the evidence. Find the mechanism.</title>
   <meta name="description" content="Investigate power, money, influence, and hidden ties. RED THREADS gives your AI investigative craft and gives you a portable case with an offline evidence atlas. Free v0.1.0.">
   <link rel="canonical" href="https://stunspot.github.io/red-threads/">
@@ -22,7 +22,9 @@
   <meta name="twitter:image" content="https://stunspot.github.io/red-threads/assets/red-threads.png">
   <meta name="twitter:image:alt" content="RED THREADS Conspiracy Unraveler: a magnifying glass reveals connections across an institutional web.">
   <link rel="icon" type="image/png" href="assets/red-threads.png">
+  <link rel="preload" href="assets/fonts/BebasNeue-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/evidence-board.js" defer></script>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"SoftwareApplication","name":"RED THREADS — Conspiracy Unraveler","softwareVersion":"0.1.0","applicationCategory":"UtilitiesApplication","operatingSystem":"AI host; Python 3.10+ for bundled case tools","description":"A self-contained AI skill for investigating power, money, influence, and hidden ties, with portable evidence and an offline atlas.","url":"https://stunspot.github.io/red-threads/","downloadUrl":"https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip","image":"https://stunspot.github.io/red-threads/assets/red-threads.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"Collaborative Dynamics"}}
   </script>
@@ -31,70 +33,86 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header wrap">
     <a class="wordmark" href="./" aria-label="RED THREADS home"><span class="thread-mark" aria-hidden="true"></span>RED THREADS<span class="wordmark-sub">CONSPIRACY UNRAVELER</span></a>
-    <nav aria-label="Main navigation"><a href="#method">The method</a><a href="demo.html">Explore the atlas <span aria-hidden="true">↗</span></a><a href="guide.html">First case</a><a class="nav-source" href="https://github.com/Stunspot/red-threads">GitHub <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Main navigation"><a href="#method">Follow a thread</a><a href="demo.html">Full atlas <span aria-hidden="true">↗</span></a><a href="guide.html">Field guide</a><a class="nav-source" href="https://github.com/Stunspot/red-threads">GitHub <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> FOLLOW THE MONEY. QUESTION THE LINE.</p>
-        <h1 id="hero-title">Pull the thread.<br><em>Find the<br class="wide-break"> mechanism.</em></h1>
-        <p class="hero-description">Investigative craft for your AI.<br>A portable case for you.</p>
-        <p class="hero-detail">Turn a hunch, a document, or an institutional hairball into an investigation you can explore, challenge, and pick up again.</p>
-        <div class="actions"><a class="button button-red" href="https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip">Download free <span aria-hidden="true">↓</span></a><a class="text-link" href="demo.html">Open the fictional case <span aria-hidden="true">↗</span></a></div>
-        <p class="fine-print">v0.1.0 · Complete skill ZIP · Your AI host supplies the model</p>
-      </div>
-      <figure class="hero-art"><img src="assets/red-threads.png" width="1672" height="941" fetchpriority="high" alt="RED THREADS — Conspiracy Unraveler. A magnifying glass reveals a network of red connections linking institutions on a dark map."><figcaption><span>LOOK CLOSER.</span><span>Connections are the beginning of the inquiry.</span></figcaption></figure>
+    <section class="opening wrap" aria-labelledby="hero-title">
+      <div class="issue-line"><span>COLLABORATIVE DYNAMICS / INVESTIGATIVE AI AUGMENT</span><span>FREE / VOL. 0.1.0</span></div>
+      <h1 class="masthead" id="hero-title">RED <span>THREADS</span></h1>
+      <div class="opening-deck"><div><p class="product-subtitle">CONSPIRACY UNRAVELER</p><h2>Follow the money.<br>Find the mechanism.</h2></div><div class="opening-copy"><p>Power has a paper trail. Sometimes it has a missing page.</p><p>Give your AI the craft to investigate money, influence, and hidden ties—with a case you can explore, challenge, and keep.</p><a class="button button-red" href="https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip">Get RED THREADS <span aria-hidden="true">↓</span></a><span class="download-note">Free skill ZIP · Your host supplies the AI</span></div></div>
     </section>
-    <div class="edition-line wrap" aria-label="Product overview"><span>ONE SELF-CONTAINED AI SKILL</span><span>PORTABLE EVIDENCE</span><span>OFFLINE ATLAS</span><span>FREE · 0.1.0</span></div>
-    <section class="manifesto wrap section-space" aria-labelledby="manifesto-title">
-      <p class="section-label"><span>01</span> THE QUESTION BEHIND THE QUESTION</p>
-      <div class="manifesto-body"><h2 id="manifesto-title">Who can make<br><em>what happen?</em></h2><div class="prose"><p class="lead">Money moves. People change roles. A briefing becomes a headline becomes “everybody knows.”</p><p>RED THREADS follows resources into activities, access, persuasion, and actual decision rights. It keeps the verbs precise: <em>funded</em>, <em>appointed</em>, <em>distributed</em>, <em>approved</em>. A line needs a mechanism, a date, and a source.</p><p>Your intuition gets a seat at the table. So does the explanation that could prove it wrong.</p></div></div>
-    </section>
-    <section class="method-section" id="method" aria-labelledby="method-title">
-      <div class="wrap section-space">
-        <p class="section-label"><span>02</span> MAKE THE CONNECTION EARN ITS MEANING</p>
-        <div class="section-heading"><h2 id="method-title">A grant is a fact.<br><em>Control is a question.</em></h2><p class="prose">In the fictional Meridian case, one foundation funds a policy institute. Look at what each record actually adds. Open the documents below.</p></div>
-        <div class="evidence-chain">
-          <div class="case-margin"><span class="case-stamp">THE MERIDIAN FILE</span><p>Fictional teaching case<br>All records and actors are invented.</p><a class="text-link" href="demo.html">Inspect the full case <span aria-hidden="true">↗</span></a></div>
-          <div class="record-stack">
-            <details class="record" open><summary><span class="record-no">01</span><span class="record-title">The award notice<small>Funding</small></span><span class="detail-sign" aria-hidden="true"></span></summary><div class="record-body"><p class="record-fact">Cobalt Foundation → <strong>awarded a research grant to</strong> → Meridian Institute</p><p>The $1.8m award establishes funding. The $900,000 first installment belongs to that award; adding them would count the same money twice. The notice establishes no editorial command.</p><p class="record-locator">BASIS: FICTIONAL AWARD AND REMITTANCE RECORDS</p></div></details>
-            <details class="record"><summary><span class="record-no">02</span><span class="record-title">The signed agreement<small>A specific right</small></span><span class="detail-sign" aria-hidden="true"></span></summary><div class="record-body"><p class="record-fact">Cobalt Foundation → <strong>holds approval rights over</strong> → the funded policy brief</p><p>Section 4 grants review and revision rights for this deliverable. That is a real, bounded mechanism. It does not give Cobalt general authority over Meridian or the separate company Astera AI.</p><p class="record-locator">BASIS: FICTIONAL AGREEMENT, SECTION 4</p></div></details>
-            <details class="record"><summary><span class="record-no">03</span><span class="record-title">The revision register<small>The right in use</small></span><span class="detail-sign" aria-hidden="true"></span></summary><div class="record-body"><p class="record-fact">Leo Venn, Cobalt’s liaison → <strong>requested in-scope revisions to</strong> → the funded brief</p><p>Record R-07 shows the limited approval right being exercised. Now the case has an observed action to investigate. Whether a wider campaign was directed remains a separate question requiring its own evidence.</p><p class="record-locator">BASIS: FICTIONAL REVISION REGISTER, R-07</p></div></details>
+    <section class="case-section wrap" id="method" aria-labelledby="case-title">
+      <div class="case-heading"><div><p class="eyebrow">OPEN FILE / THE MERIDIAN CASE</p><h2 id="case-title">The money is real.<br><span>What does it buy?</span></h2></div><p class="fiction-note"><strong>A fictional teaching case.</strong> Every actor, amount, and record here is invented. The distinctions are the point.</p></div>
+      <div class="evidence-board" id="evidence-board">
+        <div class="board-toolbar"><span class="board-title">TRACE THE MECHANISM</span><span>3 RECORDS / 3 DIFFERENT CLAIMS</span></div>
+        <div class="board-layout">
+          <div class="network-panel">
+            <div class="plot-heading"><span>RELATIONSHIP MAP</span><span>SELECT A RECORD TO FOLLOW ITS THREAD</span></div>
+            <svg class="evidence-map" viewBox="0 0 760 500" role="img" aria-labelledby="map-title map-desc">
+              <title id="map-title">Funding, approval, and an exercised right</title>
+              <desc id="map-desc">Cobalt Foundation awarded a grant to Meridian Institute and holds approval rights over the funded Licensing policy brief. Leo Venn requested in-scope revisions to that brief. The separate allegation that Cobalt directed Astera AI is disputed: no orders are supplied. Read the record inspector for sources and scope.</desc>
+              <defs><marker id="arrow-context" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+              <g class="map-edge" data-edge="e-grant"><path d="M255 123 C350 123 398 83 505 83"/><text x="370" y="75">RESEARCH GRANT</text></g>
+              <g class="map-edge" data-edge="e-approval"><path d="M255 132 C370 132 390 252 505 252"/><text x="383" y="187">APPROVAL RIGHT</text></g>
+              <g class="map-edge" data-edge="e-leo-revisions"><path d="M255 308 C375 308 390 263 505 263"/><text x="380" y="335">REVISION REQUEST</text></g>
+              <g class="map-edge disputed-edge" data-edge="e-direction"><path d="M150 161 V211 H22 V444 H505"/><text x="321" y="412">ALLEGED DIRECTION</text><text class="edge-caveat" x="321" y="433">DISPUTED · NO ORDER SUPPLIED</text></g>
+              <g class="map-node" data-node="cobalt"><rect x="45" y="85" width="210" height="76"/><text class="node-category" x="61" y="108">FUNDER</text><text class="node-name" x="61" y="136">Cobalt Foundation</text></g>
+              <g class="map-node" data-node="meridian"><rect x="505" y="45" width="228" height="76"/><text class="node-category" x="521" y="68">POLICY INSTITUTE</text><text class="node-name" x="521" y="96">Meridian Institute</text></g>
+              <g class="map-node" data-node="brief"><rect x="505" y="215" width="228" height="76"/><text class="node-category" x="521" y="238">FUNDED DELIVERABLE</text><text class="node-name" x="521" y="261"><tspan x="521">Licensing policy</tspan><tspan x="521" dy="21">brief</tspan></text></g>
+              <g class="map-node" data-node="leo"><rect x="45" y="270" width="210" height="76"/><text class="node-category" x="61" y="293">PROGRAM LIAISON</text><text class="node-name" x="61" y="321">Leo Venn</text></g>
+              <g class="map-node disputed-node" data-node="astera"><rect x="505" y="406" width="228" height="76"/><text class="node-category" x="521" y="429">SEPARATE COMPANY</text><text class="node-name" x="521" y="457">Astera AI</text></g>
+            </svg>
+            <div class="map-legend"><span><i class="legend-line" aria-hidden="true"></i>Documented relationship</span><span><i class="legend-line dashed" aria-hidden="true"></i>Disputed allegation</span></div>
+            <p class="plot-note">Position is a reading aid. A line earns its meaning from the record.</p>
+            <div class="mobile-context"><strong>The wider claim / disputed</strong><p>Cobalt Foundation → allegedly directed the licensing campaign of → Astera AI</p><p>No orders are supplied. The allegation traces back to the grant notice about Meridian.</p></div>
+          </div>
+          <div class="record-inspector">
+            <div class="inspector-heading"><span>EXAMINE THE RECORD</span><span aria-hidden="true">↙</span></div>
+            <div class="record-controls" data-record-controls hidden role="group" aria-label="Choose a fictional evidence record">
+              <button type="button" data-select-record="award" aria-controls="record-award" aria-pressed="false"><span>01</span>Award notice</button>
+              <button type="button" data-select-record="agreement" aria-controls="record-agreement" aria-pressed="false"><span>02</span>Section 4</button>
+              <button type="button" data-select-record="revision" aria-controls="record-revision" aria-pressed="false"><span>03</span>Revision R-07</button>
+            </div>
+            <div class="record-content">
+              <article class="evidence-record" id="record-award" data-record="award" aria-labelledby="award-title">
+                <p class="record-index">01 / AWARD NOTICE / 10 JAN 2025</p><h3 id="award-title">$1.8 million.<br>One funding relationship.</h3>
+                <p class="record-route"><span>Cobalt Foundation</span><strong>awarded a research grant to</strong><span>Meridian Institute</span></p>
+                <p>The notice establishes a two-year research award. It supplies no editorial orders.</p><p>The $900,000 first installment is part of that award. Add them together and you have invented $900,000.</p>
+                <p class="source-locator"><strong>SOURCE / s-award</strong>Fictional grant announcement, paragraph 2. Installment: agreement, remittance appendix B.</p>
+                <p class="next-question"><span>THE NEXT QUESTION</span>Does the agreement give the funder any decision rights?</p>
+              </article>
+              <article class="evidence-record" id="record-agreement" data-record="agreement" aria-labelledby="agreement-title">
+                <p class="record-index">02 / SIGNED AGREEMENT / 15 JAN 2025</p><h3 id="agreement-title">A right to approve.<br>A boundary around it.</h3>
+                <p class="record-route"><span>Cobalt Foundation</span><strong>holds approval rights over</strong><span>Licensing policy brief</span></p>
+                <p>Section 4 requires liaison approval for the funded brief. The contract establishes a specific mechanism: review and revision of this deliverable.</p><p>It grants no general authority over Meridian or the separate company Astera AI.</p>
+                <p class="source-locator"><strong>SOURCE / s-agreement</strong>Fictional signed grant agreement, section 4. Teaching paraphrase; limited to the research scope.</p>
+                <p class="next-question"><span>THE NEXT QUESTION</span>Was that approval right ever exercised?</p>
+              </article>
+              <article class="evidence-record" id="record-revision" data-record="revision" aria-labelledby="revision-title">
+                <p class="record-index">03 / REVISION REGISTER / 02 JUL 2025</p><h3 id="revision-title">Now there’s<br>an action to trace.</h3>
+                <p class="record-route"><span>Leo Venn, program liaison</span><strong>requested in-scope revisions to</strong><span>Licensing policy brief</span></p>
+                <p>Record R-07 asks for clarification of the audit-threshold section before approval. The limited right was used.</p><p>That supports influence over this brief. A claim about directing Astera’s wider campaign still needs its own evidence.</p>
+                <p class="source-locator"><strong>SOURCE / s-revisions</strong>Fictional revision register, R-07, read with agreement section 4. Teaching paraphrase.</p>
+                <p class="next-question"><span>THE NEXT QUESTION</span>What record would establish a route to Astera?</p>
+              </article>
+            </div>
+            <p class="sr-only" data-record-announcement role="status" aria-live="polite" aria-atomic="true"></p>
           </div>
         </div>
-        <p class="method-conclusion">Funding. Alignment. Coordination. Control.<br><strong>Different claims. Different evidence.</strong></p>
+        <div class="board-footer"><p><strong>Follow the verb.</strong> “Funded” and “ordered” have different receipts.</p><a href="demo.html">Open the complete atlas <span aria-hidden="true">↗</span></a></div>
       </div>
     </section>
-    <section class="atlas-section wrap section-space" aria-labelledby="atlas-title">
-      <p class="section-label"><span>03</span> AN INVESTIGATION YOU CAN GET YOUR HANDS ON</p>
-      <div class="section-heading"><h2 id="atlas-title">Meet the case.<br><em>Then interrogate it.</em></h2><div class="prose"><p>The offline atlas links the network to its timeline, sources, rival hypotheses, next leads, and actor strategies. This demo is generated by the shipped renderer from the included fictional case.</p><a class="button button-red" href="demo.html">Explore the Meridian atlas <span aria-hidden="true">↗</span></a><p class="fine-print">Opens the real atlas · No installation needed to explore</p></div></div>
-      <div class="demo-brief"><div class="demo-question"><span class="eyebrow">YOUR QUESTION</span><p>Is one patron directing the campaign—or are different actors arriving at the same position?</p><span class="fiction-label">EVERY PERSON, ORGANIZATION, AND SOURCE IN THIS DEMO IS FICTIONAL.</span></div><div class="demo-probes">
-        <article><span class="probe-no">I.</span><div><h3>Three headlines. One origin.</h3><p>Trace the direction allegation through Sentinel, Ledger, and Streamcast. Separate URLs do not create independent corroboration.</p></div></article>
-        <article><span class="probe-no">II.</span><div><h3>The calendar has an objection.</h3><p>Astera’s June endorsement precedes the July briefing packet. What earlier record would be needed to explain the initial agreement?</p></div></article>
-        <article><span class="probe-no">III.</span><div><h3>Remove the patron. Look again.</h3><p>Inspect the advisory route that remains. Removing a node tests the supplied graph’s connectivity; it cannot establish real-world independence.</p></div></article>
-      </div></div>
-      <div class="atlas-caption"><span>A MAP YOU CAN QUESTION</span><p>Open a relationship and inspect its basis. Compare a time slice or rival explanation. Save the view you want to return to.</p><a class="text-link" href="guide.html#explore">Follow the guided tour <span aria-hidden="true">→</span></a></div>
+    <section class="atlas-invitation wrap" aria-labelledby="atlas-title">
+      <div><p class="eyebrow">THERE’S MORE IN THE FILE</p><h2 id="atlas-title">The map is where<br>the questions start.</h2><a class="text-link" href="guide.html#explore">Take the four-stop field tour <span aria-hidden="true">→</span></a></div>
+      <div class="case-leads"><a href="demo.html"><span class="lead-number">01 / SOURCES</span><span><strong>Three headlines. One origin.</strong>Trace a claim through Sentinel, Ledger, and Streamcast. Count independent evidence, not URLs.</span><span aria-hidden="true">↗</span></a><a href="demo.html"><span class="lead-number">02 / TIMELINE</span><span><strong>The calendar has an objection.</strong>Astera’s endorsement predates the briefing packet. Find the record that could explain the earlier agreement.</span><span aria-hidden="true">↗</span></a><a href="demo.html"><span class="lead-number">03 / ACTOR GAMES</span><span><strong>Who can credibly do what?</strong>Inspect objectives, constraints, outside options, and the assumptions behind a strategic move.</span><span aria-hidden="true">↗</span></a></div>
     </section>
-    <section class="work-section" aria-labelledby="work-title"><div class="wrap section-space">
-      <p class="section-label"><span>04</span> THE CRAFT BEHIND THE CASE</p>
-      <div class="section-heading"><h2 id="work-title">Follow the strongest lead.<br><em>Keep the case intact.</em></h2><p class="prose">Research, intuition, rival explanations, and game theory share one case. The AI investigates with the tools your host provides. The bundled Python tools preserve and display the work.</p></div>
-      <div class="work-rows">
-        <article><h3>Look for the mechanism</h3><p>Trace grants, contracts, roles, resource dependencies, access, and decision rights. Keep an institution’s different actors and powers distinguishable.</p><span class="work-note">PRECISE VERBS + DATES + SOURCES</span></article>
-        <article><h3>Give rivals a real chance</h3><p>Work inside a hunch while keeping its assumptions attached. Compare explanations that predict different observations, then choose the record that could separate them.</p><span class="work-note">HYPOTHESES + DISCRIMINATING LEADS</span></article>
-        <article><h3>Ask who can credibly act</h3><p>Examine objectives, constraints, outside options, and responses. A dependency becomes strategic leverage only when the ability to withhold or redirect is established.</p><span class="work-note">ACTOR GAMES + EXPLICIT ASSUMPTIONS</span></article>
-        <article><h3>Let corrections travel</h3><p>Trace a changed source through declared dependencies. Review the affected relationships, hypotheses, and strategies; preserve independent support and save a new revision.</p><span class="work-note">SOURCE ANCESTRY + REVIEW FRONTIER</span></article>
-      </div>
-      <div class="custody-note"><p class="eyebrow">THE CASE STAYS PORTABLE</p><p><code>case.json</code> holds the investigation. The HTML atlas and CSV exports are views of it. Store the case where you choose, preserve the evidence, and resume from what remains unresolved.</p><a class="text-link" href="https://github.com/Stunspot/red-threads/blob/main/documentation/investigations.md">Working with your own records <span aria-hidden="true">↗</span></a></div>
-    </div></section>
-    <section class="start-section wrap section-space" id="start" aria-labelledby="start-title">
-      <p class="section-label"><span>05</span> YOUR FIRST THREAD</p>
-      <div class="start-grid"><div><h2 id="start-title">Bring a question.<br><em>Leave with a next move.</em></h2><p class="prose">Download the complete skill, install it through your AI host’s supported skill route, and begin with the fictional case. Python 3.10+ is needed for the supplied case tools and atlas; conversational investigation can continue without it.</p><div class="actions"><a class="button button-red" href="https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip">Download v0.1.0 <span aria-hidden="true">↓</span></a><a class="text-link" href="guide.html">Run your first case <span aria-hidden="true">→</span></a></div></div><aside class="start-note"><span class="eyebrow">KNOW WHAT YOU’RE GETTING</span><p>One self-contained AI skill, investigative references, a fictional worked case, and local tools.</p><p>Your host supplies the model, browsing, and source access. The renderer performs no research. Validation checks the data’s structure and references; the investigator still has to earn the conclusion.</p><a class="text-link" href="https://github.com/Stunspot/red-threads/blob/main/documentation/evidence-and-licenses.md">Capabilities, evidence, and licenses <span aria-hidden="true">↗</span></a></aside></div>
+    <figure class="case-cover wrap"><div class="cover-label"><span>RED THREADS / CONSPIRACY UNRAVELER</span><span>LOOK CLOSER.</span></div><img src="assets/red-threads.png" width="1672" height="941" loading="lazy" alt="RED THREADS — Conspiracy Unraveler. A magnifying glass reveals a network of red connections linking institutions on a dark map."><figcaption>Connections are the beginning of the inquiry.</figcaption></figure>
+    <section class="get-section wrap" id="start" aria-labelledby="start-title">
+      <div class="get-intro"><p class="eyebrow">YOUR FIRST THREAD</p><h2 id="start-title">Bring a hunch.<br><span>Keep the receipts.</span></h2><p>Research, intuition, rival explanations, and game theory—working inside one portable investigation.</p><a class="button button-red" href="https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip">Download free · v0.1.0 <span aria-hidden="true">↓</span></a></div>
+      <div class="kit-contents"><p class="eyebrow">INSIDE THE COMPLETE SKILL ZIP</p><dl><div><dt>Investigative craft</dt><dd>One self-contained AI skill with references for mechanisms, source ancestry, rival hypotheses, and strategy.</dd></div><div><dt>A case you can carry</dt><dd>A worked fictional investigation, local Python tools, an offline HTML atlas, and CSV exports.</dd></div><div><dt>A place to pick up again</dt><dd>Your <code>case.json</code> holds the evidence. Save revisions, inspect corrections, and return to the strongest unresolved lead.</dd></div></dl><p class="requirements">Your host supplies the AI, browsing, and source access. Python 3.10+ runs the bundled case tools. The renderer displays the case; it performs no research.</p><a class="text-link" href="guide.html">Install it. Open your first case. <span aria-hidden="true">→</span></a></div>
     </section>
-    <section class="reading-room wrap" aria-labelledby="reading-title">
-      <div><p class="section-label"><span>06</span> THE READING ROOM</p><h2 id="reading-title">Keep the useful<br><em>instructions close.</em></h2></div>
-      <div class="doc-links"><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/installation.md"><span>Install the skill<small>Host routes, requirements, and discovery</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/investigations.md"><span>Investigate, correct, and resume<small>From first records to a sustained case</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/reference.md"><span>Commands and case format<small>Exact inputs, outputs, and data contracts</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/recovery.md"><span>Recover a blocked step<small>Missing tools, validation, and existing output</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/privacy-and-support.md"><span>Privacy and support<small>Keep private cases out of public issues</small></span><span aria-hidden="true">↗</span></a></div>
-    </section>
+    <section class="reading-room wrap" aria-labelledby="reading-title"><div><p class="eyebrow">THE FIELD MANUAL</p><h2 id="reading-title">Less guessing.<br>More investigating.</h2></div><nav class="doc-links" aria-label="Product documentation"><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/installation.md"><span>Install the skill<small>Host routes and requirements</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/investigations.md"><span>Investigate, correct, resume<small>Work with your own records</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/reference.md"><span>Commands &amp; case format<small>Inputs, outputs, and data contracts</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/recovery.md"><span>Recover a blocked step<small>Tools, validation, and existing output</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/privacy-and-support.md"><span>Privacy &amp; support<small>Keep private cases out of public issues</small></span><span aria-hidden="true">↗</span></a></nav></section>
   </main>
-  <footer class="site-footer wrap"><div><a class="footer-brand" href="./">RED THREADS</a><p>Follow the thread until the mechanism comes into view.</p><p class="fine-print">By Stunspot / Collaborative Dynamics · v0.1.0</p></div><nav aria-label="Footer navigation"><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/README.md">Documentation</a><a href="https://github.com/Stunspot/red-threads/blob/main/LICENSE.md">Licenses &amp; attribution</a><a href="https://github.com/Stunspot/red-threads">Source on GitHub</a></nav><p class="footer-end">The string is cheap.<br><em>The distinction is the work.</em></p></footer>
+  <footer class="site-footer wrap"><div><a class="footer-brand" href="./">RED THREADS</a><p>By Stunspot / Collaborative Dynamics · v0.1.0</p></div><nav aria-label="Footer navigation"><a href="https://github.com/Stunspot/red-threads/blob/main/documentation/evidence-and-licenses.md">Capabilities &amp; evidence</a><a href="https://github.com/Stunspot/red-threads/blob/main/LICENSE.md">Licenses</a><a href="assets/fonts/README.md">Type credits</a><a href="https://github.com/Stunspot/red-threads">Source on GitHub</a></nav><p class="footer-end">The string is cheap.<br>The distinction is the work.</p></footer>
 </body>
 </html>
