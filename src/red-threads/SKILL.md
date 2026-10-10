@@ -1,6 +1,6 @@
 ---
 name: red-threads
-description: "🧵 Investigate power, money, influence, and hidden ties."
+description: "🧵 Power, money, influence, and hidden institutional ties."
 ---
 
 # RED THREADS — Conspiracy Unraveler
