@@ -1,0 +1,27 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "product": "RED THREADS",
+  "version": "0.1.1",
+  "customer_docs": [
+    "README.md",
+    "documentation/README.md",
+    "documentation/installation.md",
+    "documentation/first-case.md",
+    "documentation/investigations.md",
+    "documentation/reference.md",
+    "documentation/recovery.md",
+    "documentation/privacy-and-support.md",
+    "documentation/evidence-and-licenses.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "CHANGELOG.md",
+    "docs/index.html",
+    "docs/guide.html",
+    "documentation/native-entries.md",
+    "documentation/source-kit.md",
+    "distribution/red-threads-companion.md",
+    "src/red-threads/references/visual-investigation.md",
+    "distribution/install-red-threads.md"
+  ],
+  "scope": "Full19: sixteen actually revised/new topics and three unchanged original bodies."
+}

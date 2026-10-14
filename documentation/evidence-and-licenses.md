@@ -1,14 +1,16 @@
 # Evidence, scope, and licenses
 
-RED THREADS v0.1.0 is a single self-contained skill with investigative instructions, knowledge playbooks, deterministic case tools, and an offline atlas. Its useful claim is an inspectable workflow: follow evidence into mechanisms, compare explanations, and preserve the case for correction and resumption.
+RED THREADS v0.1.1 provides one self-contained skill in Codex and Claude packages, plus its complete source/rebuild kit with investigative instructions, knowledge playbooks, deterministic case tools, and an offline atlas. Its useful claim is an inspectable workflow: follow evidence into mechanisms, compare explanations, and preserve the case for correction and resumption.
 
 ## What has been exercised
 
-Local release checks ran 52 tests: 51 passed and one Windows symlink-privilege test was skipped, with no failures. They exercise Python data and CLI operations and actual bundled JavaScript geometry, dependency, and saved-state logic. Two independently identified view-save defects were repaired and their regression probes passed.
+Retained v0.1.0 qualification ran 52 tests: 51 passed and one Windows symlink-privilege test was skipped, with no failures. They exercise Python data and CLI operations and actual bundled JavaScript geometry, dependency, and saved-state logic. Two independently identified view-save defects were repaired and their regression probes passed.
 
 A clean extraction of the release ZIP successfully validated, rendered, scanned, ranked leads, and resumed the fictional Meridian case. A separate operator also acquired and reconciled unfamiliar supplied fictional records. A fresh continuation performed correction impact, guarded revision, and resumption. These exercises support the documented local workflow.
 
 The public [tests](../tests/) and [release builder](../tools/build_release.py) let maintainers repeat the reproducible portions. The private evaluation records are not customer data or public cargo.
+
+The0.1.1 entry update also has bounded Edge map/focus/evidence and saved-view return observations, plus Windows shortcut creation, preservation and dispatch. These do not establish native macOS execution or fresh-host skill discovery.
 
 ## What those checks do not establish
 

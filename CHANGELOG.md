@@ -1,3 +1,7 @@
+# 0.1.1
+
+Distinct delivery identity for the prior same-version cue repair, complete current-source kit and recognizable native atlas entries. Original doctrine/case revision/graph semantics retained.
+
 # Changelog
 
 ## 0.1.0 — 2026-09-08

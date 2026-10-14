@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "browser": "Actual installed Edge headless",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "initial_entities": 17,
+  "initial_relationships": 28,
+  "approval": "RELATIONSHIP\nholds approval rights over the funded brief\nCobalt Foundation\n→\nLicensing policy brief\ngovernancedocumented\n\nSection 4 grants review and revision rights for this brief only. It gives no general authority over Meridian or Astera.\n\n2025-01-15 → 2026-12-31\n\nMechanism\n\nContractual approval of the specified deliverable.\n\nEvidence / locator\n\nTeaching paraphrase of section 4: publication of the funded brief requires liaison approval within the agreed research scope.\n\nSource trail\nFICTIONAL: Signed grant agreement and remittance appendix\nRED THREADS teaching fixture · Invented agreement: section 4 limits approval to the funded brief; section 6 names the liaison; appendix B records $900,000 disbursed. · Published 2025-01-15 · Retrieved 2026-08-14\n\nAgreement terms and payment evidence are separate observations within this teaching record. Award and disbursement are not additive spending.\n\nAncestry & dependent claims\n\n1 source records · 1 recorded ancestry roots. Missing ancestry is not proof of independence.\n\nCompeting explanations\nBroad patron directionBounded grant control plus parallel incentives\nDeclared evidence dependencies\nsource: FICTIONAL: Signed grant agreement and remittance appendixWhat needs review if this changes?",
+  "return_status": "View restored for The Meridian File - fictional training case.",
+  "saved_view": {
+    "format": "red-threads-view-2",
+    "case_id": "meridian-fictional",
+    "case_updated_at": "2026-09-08T02:00:00Z",
+    "saved_at": "2026-10-14T12:55:14.867Z",
+    "tab": "atlas",
+    "mode": "node",
+    "focus": "cobalt",
+    "group": null,
+    "selected_edge": "e-approval",
+    "selected_source": null,
+    "selected_record": {
+      "collection": "edges",
+      "id": "e-approval"
+    },
+    "pinned_nodes": [
+      "mira",
+      "packet"
+    ],
+    "filters": {
+      "date": null,
+      "include_unknown_intervals": true,
+      "layers": [
+        "coordination",
+        "governance",
+        "infrastructure",
+        "money",
+        "narrative",
+        "personnel",
+        "policy"
+      ],
+      "statuses": [
+        "disputed",
+        "documented",
+        "hypothesis",
+        "inferred",
+        "reported"
+      ]
+    },
+    "structural_removal": null,
+    "path": {
+      "from": null,
+      "to": null,
+      "edge_ids": [],
+      "node_ids": []
+    },
+    "note": "Presentation state only. Loading validates references and recomputes paths against this case; it never changes evidence."
+  },
+  "errors": [],
+  "favicon_bytes_exact": true
+}

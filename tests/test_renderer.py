@@ -13,6 +13,18 @@ MODULE = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(MODULE)
 
 class RendererTests(unittest.TestCase):
+    def test_embedded_icon_and_missing_image_remain_self_contained(self):
+        import base64
+        from unittest.mock import patch
+        data={"case":{"title":"Synthetic mechanism"},"nodes":[],"edges":[],"sources":[]}
+        html=MODULE.render(data)
+        icon=re.search(r'<link rel="icon" type="image/png" href="data:image/png;base64,([^"]+)">',html)
+        self.assertIsNotNone(icon)
+        self.assertEqual(base64.b64decode(icon.group(1)),(ROOT/'src/red-threads/assets/red-threads-icon.png').read_bytes())
+        with patch.object(MODULE.Path,'is_file',return_value=False):
+            plain=MODULE.render(data)
+        self.assertIn('href="data:,"',plain)
+        self.assertEqual(json.loads(re.search(r'<script id="case-data" type="application/json">(.*?)</script>',plain,re.S).group(1)),data)
     def test_hostile_case_strings_remain_inert_and_round_trip(self):
         payload = {"case": {"title": "</script><script>globalThis.PWNED=true</script>&\u2028\u2029", "question": "<img src=x onerror=alert(1)>"}, "nodes": [], "edges": [], "sources": []}
         original = copy.deepcopy(payload)
@@ -35,7 +47,8 @@ class RendererTests(unittest.TestCase):
         self.assertTrue(html.startswith("<!doctype html>"))
         self.assertIn("connect-src 'none'", html)
         self.assertNotRegex(html, r'<script\s+[^>]*src=')
-        self.assertNotRegex(html, r'<link\s+[^>]*href=')
+        resources=re.findall(r'<link\s+[^>]*href="([^"]+)"',html)
+        self.assertTrue(all(value.startswith('data:') for value in resources),'External link resource makes the atlas nonportable')
 
     def test_rejects_non_json_numeric_values(self):
         with self.assertRaises(ValueError):

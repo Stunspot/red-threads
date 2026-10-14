@@ -1,0 +1,11 @@
+test_directed_trace_time_slices_and_structural_removal (test_renderer.RendererTests.test_directed_trace_time_slices_and_structural_removal) ... ok
+test_embedded_icon_and_missing_image_remain_self_contained (test_renderer.RendererTests.test_embedded_icon_and_missing_image_remain_self_contained) ... ok
+test_empty_case_renders_portable_document (test_renderer.RendererTests.test_empty_case_renders_portable_document) ... ok
+test_hostile_case_strings_remain_inert_and_round_trip (test_renderer.RendererTests.test_hostile_case_strings_remain_inert_and_round_trip) ... ok
+test_rejects_non_json_numeric_values (test_renderer.RendererTests.test_rejects_non_json_numeric_values) ... ok
+test_rejects_non_object_root (test_renderer.RendererTests.test_rejects_non_object_root) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.123s
+
+OK
