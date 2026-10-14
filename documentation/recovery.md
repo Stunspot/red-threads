@@ -95,3 +95,6 @@ A source without a web link may have an authorized local locator. The atlas disp
 Use a snapshot from the same case ID. Missing objects or invalid filters are rejected; a path that no longer exists returns to an explained overview. A newer case revision can make an older view incomplete even when loading succeeds.
 
 Return to **Overview**, choose the intended current records, and save a new snapshot. Keep the rejected snapshot if it helps explain the issue. Loading or discarding a view does not change the canonical case.
+## A desktop entry points to an older atlas
+
+Create a new entry targeting the intended rendered HTML file using [Recognizable entries](native-entries.md). An entry does not regenerate an atlas after a case revision; render a new atlas and select that exact output. Missing cosmetic tab artwork does not stop normal rendering or browser use.

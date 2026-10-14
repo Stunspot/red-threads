@@ -8,7 +8,7 @@ Include the affected version, component, impact, and a minimal fictional reprodu
 
 Relevant defects include executable interpretation of case text, unsafe source links, unintended file writes or overwrites, traversal through evidence references, and unintended network or data disclosure from bundled code.
 
-The current release is v0.1.0. No response deadline or guaranteed support period is promised. Please allow the maintainer to assess a reported defect and coordinate an appropriate fix before publishing exploit details.
+The current release is v0.1.1. No response deadline or guaranteed support period is promised. Please allow the maintainer to assess a reported defect and coordinate an appropriate fix before publishing exploit details.
 
 Host permissions, account access, and third-party source availability are outside the bundled toolkit. If a report crosses those boundaries, identify which operation belongs to RED THREADS and which belongs to the host.
 

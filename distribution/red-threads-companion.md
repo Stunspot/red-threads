@@ -19,7 +19,11 @@ This archive contains a complete Codex skill. In a chat without skill installati
 - Treat path traces and node removal as ways to inspect connectivity. Ask for the missing mechanism or next discriminating record before turning a visual pattern into an assertion about control.
 - Draft articles and briefings when you want them. Publishing, outreach, paid data access and recurring monitoring remain actions you choose.
 
+The0.1.1 ZIP contains its complete selected source kit, Codex runtime and nested Claude ZIP. The atlas has accepted-art tab/native icons and optional current-file desktop entries; follow the installation and native-entry guides. Mac execution remains unqualified.
+
 # Changelog
+
+v0.1.1 - Distinct delivery identity, source-complete rebuild kit and recognizable native atlas entries; investigative doctrine and case operations unchanged.
 
 v0.1.0 - Initial release: investigative mechanism tracing; record-finding and reconciliation playbooks; rival hypotheses and actor strategy; campaign coverage and resumption; complete declared dependency tracing; guarded case revisions; curated offline atlas with label-aware routing and Save/Load views; structural scans, lead frontiers, JSON/CSV export and fictional worked investigations.
 

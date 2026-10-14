@@ -1,0 +1,29 @@
+{
+  "version": "0.1.1",
+  "skill_root": "codex/red-threads",
+  "runtime_files": 27,
+  "source_complete": true,
+  "assets": [
+    {
+      "name": "red-threads-v0.1.1.zip",
+      "bytes": 8351143,
+      "sha256": "9cea8823e0086bd3595f097b12a51d095ac6213353360cf21012109a723186de"
+    },
+    {
+      "name": "red-threads.png",
+      "bytes": 2193296,
+      "sha256": "5c231dd8d5d57493a9a9c106058144d589cac9bd667b9f36ba8e49e54abd35c2"
+    },
+    {
+      "name": "install-red-threads.md",
+      "bytes": 2357,
+      "sha256": "3c9219a2127f176ea08faa100f502fc2344f472d658cb8f1c5dbc7780c9bcaca"
+    },
+    {
+      "name": "red-threads-companion.md",
+      "bytes": 4583,
+      "sha256": "5f65e0b70a0b76e4ca9c23fa9e2b714fe3dd80033a9d388854e6d88f12ead6ef"
+    }
+  ],
+  "archive_policy": "Fixed member order/timestamp/modes; current source/tools/tests/docs/configuration and exact current authorship references included."
+}

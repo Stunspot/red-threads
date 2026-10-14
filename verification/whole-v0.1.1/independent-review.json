@@ -1,0 +1,217 @@
+{
+  "project_id": "red-threads-0.1.1-sixteen-topics-final-review",
+  "title": "RED THREADS final independent customer documentation review",
+  "product_version": "0.1.1",
+  "status": "accessibility-reviewed",
+  "verdict": "REVIEW_PASS",
+  "testforge_verdict": "REVIEW_PASS",
+  "recommended_status": "READY",
+  "reviewer_record": {
+    "reviewer": "/root/red_threads_corrected_review",
+    "status": "accessibility-reviewed",
+    "revision": "whole-v0.1.1-sixteen-topics-after-identity-repair-10813b",
+    "evidence_cutoff": "2026-10-14 15:13:20 UTC"
+  },
+  "scope": {
+    "included": [
+      "Fresh independent final static review of all19 current customer topics,16 revised and three unchanged, with operative prompt, renderer, native entry and source-builder routes.",
+      "Cold entry, discovery instructions, fictional first result, own investigation, evidence correction, saved-view return, recovery, support and source rebuild; retained relevant behavioral evidence inspected."
+    ],
+    "excluded": [
+      "New browser/native/domain/model execution, fresh-host discovery, macOS qualification, default-browser chrome, assistive-technology and representative-user assessment.",
+      "Live-web factual accuracy, quantitative model reliability, post-review SDK binding/build/seal/publication execution."
+    ],
+    "constraints": [
+      "Frozen corrected source edit10813b; no reviewer product edits.",
+      "Historical qualification remains supplied and bounded; no universal conformance or defect-free certification."
+    ],
+    "safety_boundary": [
+      "Local source/evidence reading and review-record writes only. Existing owner release authority persists."
+    ]
+  },
+  "claim_custody": {
+    "observed": [
+      {
+        "statement": "Current operative identities agree on0.1.1; source/host installation, contributor output and recovery paths are coherent.",
+        "basis": "Current all19 topics, builder/renderer/entry source; precise closures in REVIEW-OBSERVATIONS.md."
+      },
+      {
+        "statement": "Full inventory is19 with16 revised and three unchanged.",
+        "basis": "Current documentation-delta.json and documentation-manifest.json."
+      }
+    ],
+    "inferred": [
+      {
+        "statement": "The unchanged investigative workflow and bounded changed entry/source-kit surfaces support readiness at the stated evidence boundary.",
+        "basis": "Static contract inspection plus supplied controls and accepted baseline; no new reliability estimate."
+      }
+    ],
+    "assumed": [
+      {
+        "statement": "Accepted unchanged SKILL, CLI, operations and domain baseline remains applicable.",
+        "basis": "Original CRITIQUE.md and supplied baseline comparison; historical raw52 log unavailable."
+      }
+    ],
+    "unresolved": []
+  },
+  "audiences": [
+    {
+      "name": "New researcher installing and generating a first atlas"
+    },
+    {
+      "name": "Contributor rebuilding the complete source kit"
+    },
+    {
+      "name": "Case owner correcting and resuming evidence"
+    }
+  ],
+  "top_tasks": [
+    {
+      "task": "Install the complete supported host package, distinguish discovery from use, and create a first result."
+    },
+    {
+      "task": "Rebuild the current kit using a complete and accurate command."
+    },
+    {
+      "task": "Preserve evidence and return to an existing atlas."
+    }
+  ],
+  "sources": [
+    {
+      "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\VERSION",
+      "state": "source-verified",
+      "authority": "Current directly inspected operative identity or matched legitimate control."
+    },
+    {
+      "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\README.md",
+      "state": "source-verified",
+      "authority": "Current directly inspected operative identity or matched legitimate control."
+    },
+    {
+      "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\docs\\index.html",
+      "state": "source-verified",
+      "authority": "Current directly inspected operative identity or matched legitimate control."
+    },
+    {
+      "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\docs\\guide.html",
+      "state": "source-verified",
+      "authority": "Current directly inspected operative identity or matched legitimate control."
+    },
+    {
+      "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\SECURITY.md",
+      "state": "source-verified",
+      "authority": "Current directly inspected operative identity or matched legitimate control."
+    }
+  ],
+  "topics": [
+    {
+      "path": "README.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/README.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/installation.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/first-case.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/investigations.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/reference.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/recovery.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/privacy-and-support.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/evidence-and-licenses.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "SECURITY.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "docs/index.html",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "docs/guide.html",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/native-entries.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "documentation/source-kit.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "distribution/red-threads-companion.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "src/red-threads/references/visual-investigation.md",
+      "task": "Current customer path reviewed in product context."
+    },
+    {
+      "path": "distribution/install-red-threads.md",
+      "task": "Current customer path reviewed in product context."
+    }
+  ],
+  "accessibility_reviews": [
+    {
+      "method": "Fresh independent Hesperos complete customer-path/source review",
+      "result": "REVIEW_PASS",
+      "state": "source-verified",
+      "scope": "All19 customer topics;16 revised, three unchanged; current identity/host roots and supplied browser/native observations.",
+      "limitation": "No formal conformance, assistive-technology or representative-user claim."
+    }
+  ],
+  "verification": [
+    {
+      "id": "V-FINAL",
+      "method": "Independent full customer-path and source/evidence consistency review",
+      "result": "pass",
+      "evidence": "REVIEW-OBSERVATIONS.md"
+    },
+    {
+      "id": "V-CLOSURES",
+      "method": "Direct current contributor and identity closure inspection",
+      "result": "pass",
+      "evidence": "REVIEW-OBSERVATIONS.md"
+    }
+  ],
+  "findings": [],
+  "promptcraft": {
+    "verdict": "REVIEW_PASS",
+    "scope": "Static changed cue/installer/native guidance only",
+    "basis": "Static installed-prompt continuation review: supported Codex folder/innerClaude package, caller identity, missing capability, authority boundary and file/discovery distinction coherent; unchanged SKILL doctrine is not newly model-tested.",
+    "limits": "No new model run or probabilistic reliability result."
+  },
+  "authorship_custody": "Review only; no authorship receipt created. Original project record is historical. Current16-topic SDK binding follows READY and must bind actual current text.",
+  "owner": "Sam stunspot Walker / Collaborative Dynamics",
+  "next_move": "Bind current16-topic authorship and assemble the authorized release; retain reviewed customer text and evidence limits."
+}

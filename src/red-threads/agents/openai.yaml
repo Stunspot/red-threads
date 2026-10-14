@@ -1,6 +1,8 @@
 interface:
   display_name: "RED THREADS Conspiracy Unraveler"
   short_description: "🧵 Power, money, influence, and hidden institutional ties."
+  icon_small: "./assets/red-threads-icon.png"
+  icon_large: "./assets/red-threads-icon.png"
   default_prompt: "Use $red-threads to investigate this lead, map the mechanisms, and find the next revealing evidence."
 policy:
   allow_implicit_invocation: true

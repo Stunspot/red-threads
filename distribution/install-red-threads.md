@@ -1,11 +1,11 @@
-# RED THREADS Conspiracy Unraveler v0.1.0
+# RED THREADS Conspiracy Unraveler v0.1.1
 
 Attach the ZIP and say, "Install this Augment."
 
 Use this optional prompt with the attached archive:
 
 ```text
-Install RED THREADS Conspiracy Unraveler from this ZIP using this host's supported skill installation route. It contains one complete skill folder, red-threads, with SKILL.md, references, knowledge, scripts, assets, examples and license notices. Keep that folder intact. Read SKILL.md and preserve the caller's identity; no additional persona or plugin server is required. Keep future investigative cases in my workspace, outside the installed skill. Verify the installed files and explain any host reload needed; distinguish file installation from successful skill discovery. If this chat cannot install skills, use the attached material as a reference and tell me that limitation plainly.
+Install RED THREADS Conspiracy Unraveler from this ZIP using this host's supported skill installation route. The outer RED-THREADS-v0.1.1 source kit includes two host packages. For Codex, install the complete codex/red-threads folder. For Claude, import the inner claude/red-threads-v0.1.1.zip, which contains the complete red-threads skill. Each includes SKILL.md, references, knowledge, scripts, assets, examples and license notices. Keep the installed skill folder intact. Read SKILL.md and preserve the caller's identity; no additional persona or plugin server is required. Keep future investigative cases in my workspace, outside the installed skill. Verify the installed files and explain any host reload needed; distinguish file installation from successful skill discovery. If this chat cannot install skills, use the attached material as a reference and tell me that limitation plainly.
 
 Then help me begin with the lead or question I provide. Build a useful first map, follow the mechanisms, and keep my hunches available as working hypotheses. Use the bundled atlas when Python and a browser are available. Ask only for information that changes the investigation.
 ```

@@ -6,7 +6,7 @@ The question is concrete: **who can influence a proposed compute-licensing rule,
 
 ## Generate your own atlas
 
-If you want a local copy, first [download and extract the complete skill](installation.md). Open a terminal in the extracted `red-threads` folder containing `SKILL.md`. If you use a source clone, open its `src/red-threads` folder instead. These commands use the bundled example and create a new HTML file in the parent directory, outside the skill folder. If that parent is not writable, choose a new absolute output path in your own workspace.
+If you want a local copy, first [download and extract the complete skill](installation.md). Open a terminal in the kit's `codex/red-threads` folder containing `SKILL.md`. If you use a source clone, open its `src/red-threads` folder instead. These commands use the bundled example and create a new HTML file in the parent directory, outside the skill folder. If that parent is not writable, choose a new absolute output path in your own workspace.
 
 1. Check the case.
 
@@ -58,3 +58,4 @@ the distinction between an award, a payment, and an approval right.
 ```
 
 Then move to [your own investigation](investigations.md). If a command, display, or saved view fails, [recovery](recovery.md) gives the next check.
+To make the saved atlas easy to reopen, use [Recognizable entries](native-entries.md). A view file records presentation; the case JSON remains the investigation.

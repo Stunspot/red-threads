@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "new_entry_exit": 0,
+  "existing_entry_exit": 1,
+  "existing_entry_preserved": true,
+  "target": "E:\\Temp\\augment-estate-quality-repair\\red-v011-atlas\\atlas.html",
+  "working_directory": "E:\\Temp\\augment-estate-quality-repair\\red-v011-atlas",
+  "icon": "E:\\Github\\red-threads\\working\\whole-v0.1.1\\src\\red-threads\\assets\\red-threads-icon.ico,0",
+  "description": "Open RED THREADS",
+  "actual_native_dispatch_return": 0,
+  "same_exact_atlas_in_owned_edge": "BROWSER-OBSERVATION.json/e43b63",
+  "boundary": "Windows native COM binding/preservation and actual Shell dispatch of exact rendered atlas; owned headless Edge separately observed its actual saved-view result. Default browser window/chrome and nativeMac not claimed."
+}

@@ -1,0 +1,242 @@
+{
+  "manifest_version": "1.0",
+  "target": {
+    "name": "RED THREADS",
+    "version": "0.1.1",
+    "revision": "whole-v0.1.1-sixteen-topics-after-identity-repair-10813b",
+    "path": "E:\\Github\\red-threads\\working\\whole-v0.1.1",
+    "target_class": "whole_product"
+  },
+  "scope": {
+    "included": [
+      "Fresh independent final static review of all19 current customer topics,16 revised and three unchanged, with operative prompt, renderer, native entry and source-builder routes.",
+      "Cold entry, discovery instructions, fictional first result, own investigation, evidence correction, saved-view return, recovery, support and source rebuild; retained relevant behavioral evidence inspected."
+    ],
+    "excluded": [
+      "New browser/native/domain/model execution, fresh-host discovery, macOS qualification, default-browser chrome, assistive-technology and representative-user assessment.",
+      "Live-web factual accuracy, quantitative model reliability, post-review SDK binding/build/seal/publication execution."
+    ],
+    "constraints": [
+      "Frozen corrected source edit10813b; no reviewer product edits.",
+      "Historical qualification remains supplied and bounded; no universal conformance or defect-free certification."
+    ],
+    "safety_boundary": [
+      "Local source/evidence reading and review-record writes only. Existing owner release authority persists."
+    ]
+  },
+  "claim_custody": {
+    "observed": [
+      {
+        "statement": "Current operative identities agree on0.1.1; source/host installation, contributor output and recovery paths are coherent.",
+        "basis": "Current all19 topics, builder/renderer/entry source; precise closures in REVIEW-OBSERVATIONS.md."
+      },
+      {
+        "statement": "Full inventory is19 with16 revised and three unchanged.",
+        "basis": "Current documentation-delta.json and documentation-manifest.json."
+      }
+    ],
+    "inferred": [
+      {
+        "statement": "The unchanged investigative workflow and bounded changed entry/source-kit surfaces support readiness at the stated evidence boundary.",
+        "basis": "Static contract inspection plus supplied controls and accepted baseline; no new reliability estimate."
+      }
+    ],
+    "assumed": [
+      {
+        "statement": "Accepted unchanged SKILL, CLI, operations and domain baseline remains applicable.",
+        "basis": "Original CRITIQUE.md and supplied baseline comparison; historical raw52 log unavailable."
+      }
+    ],
+    "unresolved": []
+  },
+  "risks": [
+    {
+      "id": "R-ENTRY",
+      "severity": "medium",
+      "disposition": "covered",
+      "statement": "Customer entry, current identity and host/source roots must agree.",
+      "verification": [
+        "S-ENTRY",
+        "T-ENTRY",
+        "E-REVIEW"
+      ]
+    },
+    {
+      "id": "R-SAFE",
+      "severity": "high",
+      "disposition": "covered",
+      "statement": "Changed renderer/native entry must preserve literal data and existing outputs.",
+      "verification": [
+        "S-SAFE",
+        "T-SAFE",
+        "E-REVIEW"
+      ]
+    },
+    {
+      "id": "R-RETURN",
+      "severity": "medium",
+      "disposition": "covered",
+      "statement": "Evidence correction and presentation return must remain distinct and usable.",
+      "verification": [
+        "S-RETURN",
+        "T-RETURN",
+        "E-REVIEW"
+      ]
+    },
+    {
+      "id": "R-CLAIMS",
+      "severity": "medium",
+      "disposition": "covered",
+      "statement": "Changed instructions and evidence claims must preserve authority and actual capability.",
+      "verification": [
+        "S-CLAIMS",
+        "T-CLAIMS",
+        "E-REVIEW"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S-ENTRY",
+      "risk_ids": [
+        "R-ENTRY"
+      ],
+      "expected": [
+        "Actual0.1.1 identity and correct host roots; explicit new builder output."
+      ],
+      "action": "Inspect actual current customer/source path and relevant supplied raw evidence."
+    },
+    {
+      "id": "S-SAFE",
+      "risk_ids": [
+        "R-SAFE"
+      ],
+      "expected": [
+        "Icon substitution precedes case payload; native helper refuses overwrite; matched supplied controls."
+      ],
+      "action": "Inspect actual current customer/source path and relevant supplied raw evidence."
+    },
+    {
+      "id": "S-RETURN",
+      "risk_ids": [
+        "R-RETURN"
+      ],
+      "expected": [
+        "Current correction/resume guides preserve case; actual supplied saved-view return is bounded."
+      ],
+      "action": "Inspect actual current customer/source path and relevant supplied raw evidence."
+    },
+    {
+      "id": "S-CLAIMS",
+      "risk_ids": [
+        "R-CLAIMS"
+      ],
+      "expected": [
+        "Correct host packages, missing-capability behavior, identity and evidence limits are explicit."
+      ],
+      "action": "Inspect actual current customer/source path and relevant supplied raw evidence."
+    }
+  ],
+  "tests": [
+    {
+      "id": "T-ENTRY",
+      "scenario_ids": [
+        "S-ENTRY"
+      ],
+      "status": "passed",
+      "decision_critical": true,
+      "execution_id": "E-REVIEW",
+      "description": "Independent static/evidence-custody review; no new runtime claim."
+    },
+    {
+      "id": "T-SAFE",
+      "scenario_ids": [
+        "S-SAFE"
+      ],
+      "status": "passed",
+      "decision_critical": true,
+      "execution_id": "E-REVIEW",
+      "description": "Independent static/evidence-custody review; no new runtime claim."
+    },
+    {
+      "id": "T-RETURN",
+      "scenario_ids": [
+        "S-RETURN"
+      ],
+      "status": "passed",
+      "decision_critical": true,
+      "execution_id": "E-REVIEW",
+      "description": "Independent static/evidence-custody review; no new runtime claim."
+    },
+    {
+      "id": "T-CLAIMS",
+      "scenario_ids": [
+        "S-CLAIMS"
+      ],
+      "status": "passed",
+      "decision_critical": true,
+      "execution_id": "E-REVIEW",
+      "description": "Independent static/evidence-custody review; no new runtime claim."
+    }
+  ],
+  "executions": [
+    {
+      "id": "E-REVIEW",
+      "kind": "observation",
+      "status": "passed",
+      "source": "observed",
+      "recorder": "/root/red_threads_corrected_review",
+      "environment": "Windows; elevated PowerShell direct source/evidence reading",
+      "target_revision": "whole-v0.1.1-sixteen-topics-after-identity-repair-10813b",
+      "test_ids": [
+        "T-ENTRY",
+        "T-SAFE",
+        "T-RETURN",
+        "T-CLAIMS"
+      ],
+      "procedure": [
+        "Read current19-topic paths and changed operative source.",
+        "Challenge each advertised outcome against source and supplied raw records.",
+        "Read closures across all operative current identity and two host routes together."
+      ],
+      "observed": [
+        "Both prior defects closed; no remaining material mismatch within declared scope.",
+        "Supplied behavioral observations remain labeled supplied and bounded."
+      ],
+      "raw_evidence": "REVIEW-OBSERVATIONS.md"
+    }
+  ],
+  "findings": [],
+  "residual_risks": [],
+  "review": {
+    "status": "REVIEW_PASS",
+    "findings": [
+      "F-CONTRIBUTOR-CLI",
+      "F-CURRENT-IDENTITY"
+    ],
+    "reviewer": "/root/red_threads_corrected_review",
+    "raw_evidence": "FINAL-REVIEW.md",
+    "target_revision": "whole-v0.1.1-sixteen-topics-after-identity-repair-10813b",
+    "evidence_cutoff": "2026-10-14 15:13:20 UTC",
+    "conditions": [],
+    "finding_dispositions": {
+      "F-CONTRIBUTOR-CLI": {
+        "status": "resolved",
+        "reason": "Current command and destination match actual builder."
+      },
+      "F-CURRENT-IDENTITY": {
+        "status": "resolved",
+        "reason": "All operative current labels agree on0.1.1; historical0.1.0 claims retain explicit bounds."
+      }
+    }
+  },
+  "decision": {
+    "status": "READY",
+    "basis": [
+      "Complete current customer-path/source review finds no material defect.",
+      "Both prior findings resolved; actual16/full19 scope and supplied behavioral evidence fit bounded release claim."
+    ],
+    "authority_required": [],
+    "claims_release_authorization": false
+  }
+}

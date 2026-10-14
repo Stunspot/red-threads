@@ -16,3 +16,7 @@
 *.webp binary
 *.mp4 binary
 *.ttf binary
+
+*.icns binary
+verification/whole-v0.1.1/** -text
+verification/hesperos-capabilities/** -text

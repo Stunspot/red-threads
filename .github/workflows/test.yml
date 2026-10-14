@@ -21,7 +21,7 @@ jobs:
       - name: Exercise case operations and actual renderer logic
         run: python -B -m unittest discover -s tests -v
       - name: Build release from source
-        run: python -B tools/build_release.py
+        run: python -B tools/build_release.py --output "${{ runner.temp }}/red-threads-release"
       - name: Check public site links and fictional demo parity
         run: python -B tools/check_site.py
       - name: Exercise homepage evidence selection and fallback

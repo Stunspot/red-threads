@@ -16,11 +16,11 @@ Run from the repository root:
 
 ```text
 python -B -m unittest discover -s tests -v
-python -B tools/build_release.py
+python -B tools/build_release.py --output ../red-threads-candidate
 python -B tools/check_site.py
 ```
 
-Inspect every result. The release builder writes the distribution under `dist`. Tests exercise local code; they do not prove host installation, live research accuracy, or browser usability. State the actual environment and any skips.
+Inspect every result. Choose a new output directory outside src/, tools/, tests/, docs/, documentation/, distribution/ and .github/. The example writes to ../red-threads-candidate; the builder rejects existing destinations. Current documentation must retain valid authorship binding; review and rebind materially changed guides before packaging. Tests exercise local code; they do not prove host installation, live research accuracy, or browser usability. State the actual environment and any skips.
 
 Keep stable case IDs, unknown extension fields, evidence dependency direction, explicit uncertainty, and no-overwrite output behavior intact. Add a focused regression when a change fixes a concrete defect. Use fictional records in fixtures.
 

@@ -8,7 +8,7 @@ A grant. A board seat. A shared adviser. Three articles repeating one claim. Int
 
 RED THREADS gives your AI investigative craft for following money, resources, obligations, influence, and decision rights. It helps turn a hunch or a pile of records into a source-linked case, competing explanations, useful next leads, and an interactive atlas you can inspect offline.
 
-**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.1.0](https://github.com/Stunspot/red-threads/releases/download/v0.1.0/red-threads-v0.1.0.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
+**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.1.1](https://github.com/Stunspot/red-threads/releases/download/v0.1.1/red-threads-v0.1.1.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
 
 ## See what a connection actually carries
 
@@ -44,7 +44,7 @@ The canonical investigation lives in `case.json`. The atlas and CSV exports are 
 
 Funding, agreement, coordination, and control can coexist. Each needs evidence for its own mechanism. A successful validation checks the case's structure. A shortest path shows a route in the recorded network. A probability records an assessment. None of those is an automatic truth verdict.
 
-Version 0.1.0 has local toolkit and extracted-package checks plus an unfamiliar fictional-record inquiry and a separate correction/resume exercise. Fresh-host installation and discovery, live-web accuracy, and a quantified performance rating have not been established. See [evidence, scope, and licenses](documentation/evidence-and-licenses.md).
+Retained v0.1.0 qualification includes local toolkit and extracted-package checks plus an unfamiliar fictional-record inquiry and a separate correction/resume exercise. Fresh-host installation and discovery, live-web accuracy, and a quantified performance rating have not been established. See [evidence, scope, and licenses](documentation/evidence-and-licenses.md).
 
 ## Keep going
 
@@ -53,3 +53,4 @@ The [documentation hub](documentation/README.md) connects installation, investig
 Created by Sam “stunspot” Walker / Collaborative Dynamics, with Nova. Deterministic software is MIT-licensed; original authored material is CC BY-ND 4.0, with upstream CC BY 4.0 rights preserved. Read the [license](LICENSE.md), [provenance](src/red-threads/references/provenance.md), and [trademark notice](TRADEMARKS.md) before redistributing.
 
 Useful to someone with an institutional hairball on their desk? Share the [demo](https://stunspot.github.io/red-threads/demo.html). Let them pull a thread before asking them to install the toolbox. 🌐‍💠
+The0.1.1 complete kit retains the accepted investigative workflow and adds recognizable browser/native atlas entries plus its selected source/tools/tests/site/customer guides/configuration and current authorship references for rebuilding. Start with [Installation](documentation/installation.md), [Native entries](documentation/native-entries.md) or [Rebuild the kit](documentation/source-kit.md). Original evidence keeps its original bounds.

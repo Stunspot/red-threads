@@ -52,3 +52,9 @@ Use the bundled offline atlas when available. Generate to a new explicit destina
 When rendering is unavailable, deliver the useful textual neighborhood or suitable diagram with canonical case data and the exact display limitation. State which interaction was actually inspected. A successful render command alone does not establish that the intended geometry is readable.
 
 Save a view snapshot to preserve filters, selection and structural scenarios, and load it only against the matching case. A saved view is presentation state; `case.views` is canonical editorial configuration; evidence revisions belong in case updates. A later evidence revision can make a prior view incomplete, so pair it with the relevant case revision. After a substantial pass, report what became visible, what remains unresolved and the next discriminating record. Carry decisive evidence into prose so the user need not click every node to understand the finding.
+
+## Recognizable atlas entries
+
+Render a new atlas with the documented command first. The atlas embeds the accepted product artwork as its tab icon and stays self-contained; a missing cosmetic image does not stop rendering. On Windows run `powershell -NoProfile -ExecutionPolicy Bypass -File "scripts/Create desktop shortcut.ps1" -AtlasPath "E:/Cases/atlas.html" -ShortcutPath "$env:USERPROFILE\Desktop\RED THREADS.lnk"` from the skill folder. Choose an existing atlas and a new shortcut name in an existing directory. It opens that exact HTML file in the default browser.
+
+On macOS run `sh scripts/create-desktop-app.sh --atlas "/Users/you/Cases/atlas.html" --destination "$HOME/Desktop/RED THREADS.app"`. The optional app opens the selected atlas and carries its native artwork. Mac execution remains unqualified. Keep your case files in your own workspace; recreate an entry after moving its target. These entries open a saved view of the case and do not perform research or revise evidence.

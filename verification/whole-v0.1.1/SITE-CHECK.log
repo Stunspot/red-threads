@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "html_pages": 3,
+  "local_references_checked": 37,
+  "errors": [],
+  "scope": "Static HTML links, duplicate IDs and fictional demo data parity; no browser, live-URL or assistive-technology observation."
+}
