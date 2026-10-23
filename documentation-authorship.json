@@ -1,84 +1,44 @@
 {
   "authored_files": [
     {
-      "bytes": 5565,
+      "bytes": 6097,
       "path": "README.md",
-      "sha256": "7621f8fa1e85342372346f43afffecefe93caa07de413ad82f8d920989812a06"
-    },
-    {
-      "bytes": 1457,
-      "path": "CHANGELOG.md",
-      "sha256": "f92cc71d2aa2538a995cfb3dfb74c254bf0e04922ba657e894e000ba4e09f26a"
+      "sha256": "369b7d44451b1d41d8261648ea5699afb72d0a1a9213cb3db27945c5d2e7d4a9"
     },
     {
       "bytes": 17796,
       "path": "docs/index.html",
-      "sha256": "f679778e51912aa315ac8d53233fe11bc354eb4bf210d70e04a3c2d149ec1ad5"
+      "sha256": "740b8b7a894d9753f8cf7df03dda0e70835f5cea78351034b19e139555856e6c"
     },
     {
       "bytes": 13517,
       "path": "docs/guide.html",
-      "sha256": "2fed8414f839cd01a0dca7b698cde0bc4352c436e254748cee0bab0d3c01eb84"
+      "sha256": "7c57dfe6e1db69012229af73f69f1bb114003326c50733a260e3bbc68380c52f"
     },
     {
-      "bytes": 6134,
+      "bytes": 3042,
+      "path": "documentation/README.md",
+      "sha256": "8c32633b4b889ed6871f65ed0f517ed417ab89e16d13e6167797a9379f263573"
+    },
+    {
+      "bytes": 7058,
       "path": "documentation/installation.md",
-      "sha256": "eca936ae05c06c9412e5253355756bea51883b0b2e5283e09c8a260abd9d4131"
-    },
-    {
-      "bytes": 5031,
-      "path": "documentation/first-case.md",
-      "sha256": "69f48cdfb21e5cec3fdf7907fb97359c16b56cd5851068fc25134e362ce28995"
-    },
-    {
-      "bytes": 7715,
-      "path": "documentation/recovery.md",
-      "sha256": "e9827c61d20cf7c06c89a8bc73649c13d293fb16a9bca2c649bfbc91835d3e5b"
-    },
-    {
-      "bytes": 1146,
-      "path": "documentation/native-entries.md",
-      "sha256": "0cfc84ae71217106f0b286cdcedfc10d201ebe1f4698c42951a524987c3910ce"
+      "sha256": "16b67ee923b9c60e67b501994cf613dda91f8df2e7beab780c68a5d83bf2c085"
     },
     {
       "bytes": 1269,
       "path": "documentation/source-kit.md",
-      "sha256": "90e6521729d6f975630240965bc7a71365e7c05cd06a27696ab57628ad42c1a9"
+      "sha256": "c61c2a3113c9a7bc143f2fbf0b0c08fffde55479be3cc4fef7d8876aee5e71a5"
     },
     {
-      "bytes": 4583,
-      "path": "distribution/red-threads-companion.md",
-      "sha256": "5f65e0b70a0b76e4ca9c23fa9e2b714fe3dd80033a9d388854e6d88f12ead6ef"
-    },
-    {
-      "bytes": 10174,
-      "path": "src/red-threads/references/visual-investigation.md",
-      "sha256": "d0f48bb1c0b3eaa9ecff487f5dc04134176c1d63e67b402ffcbe6e5675c6c69d"
-    },
-    {
-      "bytes": 2357,
-      "path": "distribution/install-red-threads.md",
-      "sha256": "3c9219a2127f176ea08faa100f502fc2344f472d658cb8f1c5dbc7780c9bcaca"
-    },
-    {
-      "bytes": 3242,
-      "path": "CONTRIBUTING.md",
-      "sha256": "1ac94e39119107630b96eac0fbee86d06d47d70e01be659bb8bbaa95ef011b82"
-    },
-    {
-      "bytes": 2789,
-      "path": "documentation/README.md",
-      "sha256": "0f30269dffbeca2932f35c963c146352bcecebbc1021d9e53a141a2f562bcc75"
-    },
-    {
-      "bytes": 4707,
+      "bytes": 5148,
       "path": "documentation/evidence-and-licenses.md",
-      "sha256": "27332197e44c3b7bff91e4ac8df326b92034a8114bf116548e4d4be41a217fdd"
+      "sha256": "db8ce748416f56624996ef82688dd0713c7cb84f5bccae6064de4581908e3274"
     },
     {
-      "bytes": 1484,
-      "path": "SECURITY.md",
-      "sha256": "20480e27a9c624968b3d54fd3a8a19cc324633777d35324a68c591779220d443"
+      "bytes": 1917,
+      "path": "CHANGELOG.md",
+      "sha256": "97e3e240f348ce2b3f7dcc3778b8b612a0f137ff70cfb9e0cef39909c029e4d6"
     }
   ],
   "authoring": {
@@ -92,86 +52,46 @@
       "sha256": "21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f"
     },
     "mode": "in-process",
-    "run_id": "red-threads-v011-sixteen-topics-20261014"
+    "run_id": "red-threads-github-delivery-20261023"
   },
   "authoring_response": {
-    "bytes": 747,
-    "path": "verification/whole-v0.1.1/response.md",
-    "sha256": "b8d02f298b07cc6bb6fabeda8fae5ee8fc0937fbf4fafcb4ecfaf09f8c9d84ba"
+    "bytes": 480,
+    "path": "verification/github-delivery/documentation-response.md",
+    "sha256": "6cbe66de168096f22f2dcd86cf925680e80d3758821448445cc444eddf8f10d3"
   },
   "claim_boundary": "Binds retained evidence for one Hesperos authoring or material-revision run. It does not prove independent review, host activation, publication, accessibility conformance, or customer outcomes.",
-  "created_at": "2026-10-14T15:16:15+00:00",
-  "documentation_fingerprint": "cd5227b41aad626c818e8384d91b4b32a86e1bbcda8e6f19759ad612b7d66b2e",
+  "created_at": "2026-10-23T17:45:40+00:00",
+  "documentation_fingerprint": "ffa75b98fe87391c81be1a3de7af884f5b2e6cb025b6076225670def13e8dc4d",
   "documentation_manifest": {
-    "bytes": 740,
-    "path": "verification/whole-v0.1.1/documentation-delta.json",
-    "sha256": "c29e28cb599d1bd5c6ef447e58f31ecd991bbe8dd4d18a948792596f9a66dbd9"
+    "bytes": 523,
+    "path": "verification/github-delivery/documentation-delta.json",
+    "sha256": "8690de956db29c493522b9e43544f5a2151f70b15861466497a47b7c54f86196"
   },
   "evidence_packet": {
-    "bytes": 545,
-    "path": "verification/whole-v0.1.1/evidence.json",
-    "sha256": "3cd99878d056b97487ebda7289e274f0ac782d532fe19cd02d356243288e6e35"
+    "bytes": 667,
+    "path": "verification/github-delivery/documentation-evidence.md",
+    "sha256": "dde986033ab77e6e69df459417c6f16c3caed5081b7390c7c2517f7aa9f1aff9"
   },
   "execution_evidence": [
     {
-      "bytes": 1600,
-      "path": "verification/whole-v0.1.1/FINAL-REVIEW.md",
-      "sha256": "49ce4bc933f04f3b896a35ede690ecce2231bb5182b1ae308749d04814b22a68"
+      "bytes": 789,
+      "path": "verification/github-delivery/documentation-execution.md",
+      "sha256": "d82ea356d22e88f179bcd70838728dee0324de7692d28f65e5ffcc5c9f37aa50"
     },
     {
-      "bytes": 8138,
-      "path": "verification/whole-v0.1.1/final-review.json",
-      "sha256": "abbb4cc814a5c4093d5f21c7d7c0c8ed889423a6390d137e7641e8787bc1612b"
+      "bytes": 3867,
+      "path": "verification/github-delivery/previous-documentation-authorship.json",
+      "sha256": "5834d98a085f197ec9ffaf186af0ef44f1e774822a42f648d3bd1b8e21e63571"
     },
     {
-      "bytes": 8551,
-      "path": "verification/whole-v0.1.1/independent-review.json",
-      "sha256": "925203a0345813666e708a545a93379ec3048958c8e30735454ce84084e8ac9b"
-    },
-    {
-      "bytes": 4218,
-      "path": "verification/whole-v0.1.1/REVIEW-OBSERVATIONS.md",
-      "sha256": "fd6e27fe7f76a6bd7b8e56e43d3873d0051b568615a624c24bb891f1f63f3a09"
-    },
-    {
-      "bytes": 195,
-      "path": "verification/whole-v0.1.1/THREE-FILE-CONTROLS.log",
-      "sha256": "876efa2281e287c172207538967cfb6e3c5f963684a6ccd2dcf36b14514e06c9"
-    },
-    {
-      "bytes": 2763,
-      "path": "verification/whole-v0.1.1/BROWSER-OBSERVATION.json",
-      "sha256": "c0d708825de2216a9f43bd1440a926d822eb7d6da7495ed3e131d55f8b0681eb"
-    },
-    {
-      "bytes": 766,
-      "path": "verification/whole-v0.1.1/ENTRY-FIXTURE.json",
-      "sha256": "7ff8a64143ca4e2fd3e07537071b3ad3d7a2d1a0fe338c4311add8999ab799a8"
-    },
-    {
-      "bytes": 883,
-      "path": "verification/whole-v0.1.1/RENDERER-CONTROLS.log",
-      "sha256": "f4e9f98cdbb5c2cf48fb9584e37a1af06ed08ac58be0d609c0c59cc1a53f75bc"
-    },
-    {
-      "bytes": 230,
-      "path": "verification/whole-v0.1.1/SITE-CHECK.log",
-      "sha256": "34a9edf2746946ca7f81f79f1dc88f5552709f31229a37b9d90b16c80d15b828"
-    },
-    {
-      "bytes": 14530,
-      "path": "verification/whole-v0.1.1/original-project.json",
-      "sha256": "7ba11cafd147fe35a4a7334896506f4c899dce56824f22d7234c8a273e36114f"
-    },
-    {
-      "bytes": 747,
-      "path": "verification/whole-v0.1.1/response.md",
-      "sha256": "b8d02f298b07cc6bb6fabeda8fae5ee8fc0937fbf4fafcb4ecfaf09f8c9d84ba"
+      "bytes": 480,
+      "path": "verification/github-delivery/documentation-response.md",
+      "sha256": "6cbe66de168096f22f2dcd86cf925680e80d3758821448445cc444eddf8f10d3"
     }
   ],
   "format": "cd-hesperos-documentation-authorship/v1",
   "product": {
     "slug": "red-threads",
-    "version": "0.1.1"
+    "version": "0.2.0"
   }
 }

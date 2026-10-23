@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "blank inquiry starts from a real question",
+    "ordinary text document becomes a readable source and original download",
+    "typed sourced relationship; missing citation correction succeeds in the same dialog",
+    "authored entities and connection feed the full existing interactive atlas",
+    "native import keeps unknown fields as a separate case copy",
+    "stale save rejected without overwriting the newer inquiry",
+    "actual shipped launcher close/relaunch restores cases and original source"
+  ],
+  "errors": []
+}

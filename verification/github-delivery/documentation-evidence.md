@@ -1,0 +1,3 @@
+# GitHub delivery source evidence
+
+The accepted v0.2.0 source and shelf ZIP match on all 36 runtime files. The inquiry host, workspace guide, package builder and native acceptance records establish the shipped local workflow and archive paths. The existing regression suite ran 53 tests with no failures and one Windows symlink privilege skip; the inquiry host conflict/DOCX checks also passed. GitHub main and its public download still expose v0.1.1. This revision makes the v0.2.0 download, outer root, Codex folder and nested Claude ZIP agree and explains the local first inquiry and saved-state signal. No host UI instructions or runtime behavior are changed.

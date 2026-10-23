@@ -1,6 +1,6 @@
 # Evidence, scope, and licenses
 
-RED THREADS v0.1.1 provides one self-contained skill in Codex and Claude packages, plus its complete source/rebuild kit with investigative instructions, knowledge playbooks, deterministic case tools, and an offline atlas. Its useful claim is an inspectable workflow: follow evidence into mechanisms, compare explanations, and preserve the case for correction and resumption.
+RED THREADS v0.2.0 provides one self-contained skill in Codex and Claude packages, plus its complete source/rebuild kit with investigative instructions, knowledge playbooks, deterministic case tools, and an offline atlas. Its useful claim is an inspectable workflow: follow evidence into mechanisms, compare explanations, and preserve the case for correction and resumption.
 
 ## What has been exercised
 
@@ -11,6 +11,8 @@ A clean extraction of the release ZIP successfully validated, rendered, scanned,
 The public [tests](../tests/) and [release builder](../tools/build_release.py) let maintainers repeat the reproducible portions. The private evaluation records are not customer data or public cargo.
 
 The0.1.1 entry update also has bounded Edge map/focus/evidence and saved-view return observations, plus Windows shortcut creation, preservation and dispatch. These do not establish native macOS execution or fresh-host skill discovery.
+
+The v0.2.0 inquiry desk adds a question-first local workspace for source notes and ordinary documents, entities, and typed relationships. Retained Windows qualification exercised the shipped launcher through first inquiry, source, entity, relationship, full atlas, and process restart. Host checks cover stale-write conflict handling and local DOCX reads. These checks do not establish native macOS execution or fresh-host skill discovery.
 
 ## What those checks do not establish
 

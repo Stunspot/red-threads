@@ -1,0 +1,102 @@
+{
+  "authored_files": [
+    {
+      "bytes": 6097,
+      "path": "README.md",
+      "sha256": "4871c26077e45427d942c610ce912549bfcb2e51079a2ee2600bcbab81072940"
+    },
+    {
+      "bytes": 5566,
+      "path": "documentation/first-case.md",
+      "sha256": "cef3818fe9c7534bfd78a5f294e728904dd83380659513b503d48ce128c61ed2"
+    },
+    {
+      "bytes": 6669,
+      "path": "documentation/installation.md",
+      "sha256": "79ff5d5f40d19feb0c0d4fddb7895eb52beeee4040cb8ce8c51ba0ecf67733c5"
+    },
+    {
+      "bytes": 1681,
+      "path": "documentation/native-entries.md",
+      "sha256": "221943fde0001ed95f6421041eccaad815d18cdef3a12e7cb8d7222ebc6ae8f4"
+    },
+    {
+      "bytes": 4349,
+      "path": "src/red-threads/workspace/README.md",
+      "sha256": "99e6b66f096c258b2518e9d39b874b2d937b762cbf38077f580749e736f3219f"
+    },
+    {
+      "bytes": 1729,
+      "path": "CHANGELOG.md",
+      "sha256": "a9be42612abb8ec8313902a3be15e4608a101b7efac3c41dcd8f3ed960bc131b"
+    },
+    {
+      "bytes": 5257,
+      "path": "distribution/red-threads-companion.md",
+      "sha256": "eecce8938e9bff923a40f68f112c2af65663244d28fc4c7884ef3b574c53456a"
+    },
+    {
+      "bytes": 2713,
+      "path": "distribution/install-red-threads.md",
+      "sha256": "fefb26f42806ce75058a3ed45a27b11f7e630a8d6643addba83c6e165d437b3e"
+    },
+    {
+      "bytes": 2713,
+      "path": "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0.md",
+      "sha256": "fefb26f42806ce75058a3ed45a27b11f7e630a8d6643addba83c6e165d437b3e"
+    },
+    {
+      "bytes": 5257,
+      "path": "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0 Extra.md",
+      "sha256": "eecce8938e9bff923a40f68f112c2af65663244d28fc4c7884ef3b574c53456a"
+    }
+  ],
+  "authoring": {
+    "authorship_scope": "materially-revised",
+    "capability": "hesperos-documentation",
+    "capability_entrypoint_sha256": "21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f",
+    "capability_revision": "sha256:21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f",
+    "capability_snapshot": {
+      "bytes": 7306,
+      "path": "verification/hesperos-capabilities/21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f/SKILL.md",
+      "sha256": "21606903702db1eae375cb8e05dcad821616d399a574488f0f1be738d6dab42f"
+    },
+    "mode": "in-process",
+    "run_id": "red-threads-purpose-020"
+  },
+  "authoring_response": {
+    "bytes": 640,
+    "path": "verification/purpose-rebuild/documentation-response.md",
+    "sha256": "2ef6e0f469429df4ec75db089f3741d96ec0ccd3cd38e9f94448c167137f85a5"
+  },
+  "claim_boundary": "Binds retained evidence for one Hesperos authoring or material-revision run. It does not prove independent review, host activation, publication, accessibility conformance, or customer outcomes.",
+  "created_at": "2026-10-15T05:47:04+00:00",
+  "documentation_fingerprint": "c53387e68b6ff7c765117e11292618fa25c15cd8c45d708bc37c0f2b086c55e1",
+  "documentation_manifest": {
+    "bytes": 610,
+    "path": "verification/purpose-rebuild/documentation-delta.json",
+    "sha256": "8dc6f55d3a2e07743517a58fc2988a4c4cb7c0d54f5d81d588909a443da49073"
+  },
+  "evidence_packet": {
+    "bytes": 535,
+    "path": "verification/purpose-rebuild/documentation-evidence.md",
+    "sha256": "7e421ee77fabcb285b4deaa68daef9e3442bd18ff80b976edc64271c6b958f69"
+  },
+  "execution_evidence": [
+    {
+      "bytes": 703,
+      "path": "verification/purpose-rebuild/documentation-execution.md",
+      "sha256": "ad1cbf5a42eeb9f7270c62cdc63ea62b6be1c3da30bbf7ec899334ff9e3b6b61"
+    },
+    {
+      "bytes": 640,
+      "path": "verification/purpose-rebuild/documentation-response.md",
+      "sha256": "2ef6e0f469429df4ec75db089f3741d96ec0ccd3cd38e9f94448c167137f85a5"
+    }
+  ],
+  "format": "cd-hesperos-documentation-authorship/v1",
+  "product": {
+    "slug": "red-threads",
+    "version": "0.2.0"
+  }
+}

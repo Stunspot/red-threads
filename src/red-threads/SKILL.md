@@ -35,6 +35,8 @@ For a sustained investigation or parallel acquisition, read [campaign operations
 
 ## Work through the atlas
 
+For direct local work, open the inquiry desk in `workspace/Open Red Threads.cmd` or `Open Red Threads.command`. Start from the user's question, notes and ordinary documents; name entities and specific sourced relationships, then use the full atlas to inspect what the connection means. The desk saves outside the installation and exports the existing portable case format through Download case. Read `workspace/README.md` for its actual input, persistence and recovery boundaries. Preserve an imported case's unknown fields and advanced investigation features when continuing it through the native tools.
+
 Read [visual investigation](references/visual-investigation.md) when the case would benefit from interactive exploration. The bundled atlas works offline and links the network, timeline, hypotheses, leads, actor games and source ancestry. Open a relationship to inspect its basis. Filter time, relation or status; focus a neighborhood; trace a path; temporarily remove a node to inspect remaining connectivity. Explain visual geometry as an editorial arrangement, and structural scenarios as structural scenarios.
 
 Use [case format and commands](references/case-format.md) before creating or changing portable case data. Put case files in the user's chosen workspace, outside this installed skill. Preserve stable IDs and meaningful corrections. Write JSON with a proper serializer, not string concatenation. Read existing data before editing and preserve unknown fields.

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": [
+    "two independent processes: one accepted same-base write, one conflict",
+    "invalid native case leaves saved bytes unchanged",
+    "ordinary DOCX text read locally without altering the saved case",
+    "malformed DOCX produces recoverable error"
+  ]
+}

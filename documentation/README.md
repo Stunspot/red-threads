@@ -1,8 +1,10 @@
 # RED THREADS documentation
 
-RED THREADS helps you investigate how people, institutions, resources, and decisions connect, while keeping the evidence available for inspection and correction. These guides apply to **v0.1.1** and case format **1**.
+RED THREADS helps you investigate how people, institutions, resources, and decisions connect, while keeping the evidence available for inspection and correction. These guides apply to **v0.2.0** and case format **1**.
 
 Start with the [fictional atlas](https://stunspot.github.io/red-threads/demo.html) to see the result. The [first-case walkthrough](first-case.md) explains what to inspect and how to generate your own copy.
+
+For local work, [open the inquiry desk](../src/red-threads/workspace/README.md), start with your question, and add notes or ordinary documents. The desk feeds the same evidence atlas used by the skill and saves your inquiries outside the installation.
 
 ## Choose your next task
 
