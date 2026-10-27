@@ -1,8 +1,14 @@
-# 0.1.1
+# Changelog
+
+## 0.2.0 — 2026-10-15
+
+Adds a persistent question-first inquiry desk, ordinary source notes/documents, entity and typed relationship authoring, native-case import/export, and a direct projection into the existing full atlas. Retains original attachment bytes and unknown case fields.
+
+The October 23 GitHub delivery corrects current-version download links and kit paths, and clarifies the inquiry desk installation and saved-state workflow.
+
+## 0.1.1 — 2026-10-14
 
 Distinct delivery identity for the prior same-version cue repair, complete current-source kit and recognizable native atlas entries. Original doctrine/case revision/graph semantics retained.
-
-# Changelog
 
 ## 0.1.0 — 2026-09-08
 

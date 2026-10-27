@@ -6,6 +6,10 @@ The interactive atlas makes the investigation a geometry. Explore the wider netw
 
 RED THREADS gives intuition room to work. A hunch becomes a hypothesis with consequences worth checking; strategy and game theory expose constraints, incentives, outside options and credible moves. Funding, agreement, coordination and command keep their distinct meanings. The next research move aims to reveal a mechanism or separate explanations. Record-finding playbooks turn a suspicion into an obtainable next document. Campaign checkpoints preserve coverage and unfinished questions; guarded case revisions and transitive dependency reports help carry corrections through hypotheses, games and leads while retaining independent support. The local tools produce an offline atlas, structural discovery prompts, ranked research leads and JSON/CSV exports without a hosted service. Your red-string board has acquired standards. It is still allowed to be interesting.
 
+# Open the inquiry desk
+
+Choose New inquiry, write your question, and add a source note or ordinary TXT/Markdown/DOCX/PDF/image. Read text and DOCX in the desk; retained PDF/image originals remain available for inspection. Name entities and describe a precise sourced relationship. The full existing atlas stays below the workbench, with a separate-tab option for exploration. Cases persist outside the installation and can be downloaded in the native format. The app never invents relationships from attachments.
+
 # Usage Notes
 
 Copy the .zip from "Additional Files" to your Codex, Claude Code, or other harness, or add the .zip to a project knowledge base in Chat. Attach or reference the .zip in chat and say, "Install this Augment." The prompt in this post is optional.
@@ -19,9 +23,12 @@ This archive contains a complete Codex skill. In a chat without skill installati
 - Treat path traces and node removal as ways to inspect connectivity. Ask for the missing mechanism or next discriminating record before turning a visual pattern into an assertion about control.
 - Draft articles and briefings when you want them. Publishing, outreach, paid data access and recurring monitoring remain actions you choose.
 
-The0.1.1 ZIP contains its complete selected source kit, Codex runtime and nested Claude ZIP. The atlas has accepted-art tab/native icons and optional current-file desktop entries; follow the installation and native-entry guides. Mac execution remains unqualified.
+The 0.2.0 ZIP contains its complete selected source kit, Codex runtime and nested Claude ZIP. The atlas has accepted-art tab/native icons and optional current-file desktop entries; follow the installation and native-entry guides. Mac execution remains unqualified.
 
 # Changelog
+
+v0.2.0 - Adds a persistent ordinary-input inquiry desk feeding the existing investigative atlas; retains native cases, source originals and unknown fields.
+
 
 v0.1.1 - Distinct delivery identity, source-complete rebuild kit and recognizable native atlas entries; investigative doctrine and case operations unchanged.
 

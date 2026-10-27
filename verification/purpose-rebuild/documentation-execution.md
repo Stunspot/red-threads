@@ -1,0 +1,3 @@
+# Hesperos material revision
+
+Applied Hesperos canonical/practitioner and procedures/recovery/usability references in process to author the new workflow guide and revise existing customer entrypoints. Applied Promptcraft and its full prompt-design reference to the short skill/install-prompt additions: question and mechanism remain primary; native structure stays backstage. Simulated sparse inquiry, missing source, unavailable host, authority boundary and apparent completion against the actual controls. Documents distinguish saved state, retained dialog edits, unsupported OCR, advanced case editing, and research performed elsewhere. No independent review or native macOS execution is claimed.

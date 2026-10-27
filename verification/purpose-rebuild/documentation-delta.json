@@ -1,0 +1,16 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "customer_docs": [
+    "README.md",
+    "documentation/first-case.md",
+    "documentation/installation.md",
+    "documentation/native-entries.md",
+    "src/red-threads/workspace/README.md",
+    "CHANGELOG.md",
+    "distribution/red-threads-companion.md",
+    "distribution/install-red-threads.md",
+    "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0.md",
+    "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0 Extra.md"
+  ],
+  "scope": "Materially revised app entrance, ordinary-source workflow, persistence and recovery."
+}

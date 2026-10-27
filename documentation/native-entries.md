@@ -1,5 +1,10 @@
 # Open your atlas with a recognizable entry
 
+## Start with your question
+
+Open the portable inquiry desk at `codex/red-threads/workspace/Open Red Threads.cmd` (Windows) or `Open Red Threads.command` (macOS) in the extracted release. Start an inquiry from a question, add a source note or ordinary document, name entities, and describe a typed relationship. The existing interactive atlas shows the result. You do not need to manufacture a case JSON first. Follow the [app workflow guide](../src/red-threads/workspace/README.md) for saving, return, ordinary inputs and recovery.
+
+
 Enter the complete `codex/red-threads` skill folder in a release, or `src/red-threads` in a source clone.
 
 ## Recognizable atlas entries

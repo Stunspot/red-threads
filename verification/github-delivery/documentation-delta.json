@@ -1,0 +1,16 @@
+{
+  "format": "cd-customer-documentation/v1",
+  "product": "RED THREADS",
+  "version": "0.2.0",
+  "customer_docs": [
+    "README.md",
+    "docs/index.html",
+    "docs/guide.html",
+    "documentation/README.md",
+    "documentation/installation.md",
+    "documentation/source-kit.md",
+    "documentation/evidence-and-licenses.md",
+    "CHANGELOG.md"
+  ],
+  "scope": "Current release download and package paths, first inquiry installation and recovery, and truthful v0.2.0 capability and evidence guidance."
+}

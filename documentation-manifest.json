@@ -1,7 +1,7 @@
 {
   "format": "cd-customer-documentation/v1",
   "product": "RED THREADS",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "customer_docs": [
     "README.md",
     "documentation/README.md",
@@ -21,7 +21,10 @@
     "documentation/source-kit.md",
     "distribution/red-threads-companion.md",
     "src/red-threads/references/visual-investigation.md",
-    "distribution/install-red-threads.md"
+    "distribution/install-red-threads.md",
+    "src/red-threads/workspace/README.md",
+    "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0.md",
+    "distribution/RED THREADS Conspiracy Unraveler T-Free v0.2.0 Extra.md"
   ],
-  "scope": "Full19: sixteen actually revised/new topics and three unchanged original bodies."
+  "scope": "Current complete inventory, with current app entrance and recovery delta separately authored; prior documentation bodies retained."
 }

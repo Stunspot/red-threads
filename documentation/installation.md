@@ -1,10 +1,17 @@
 # Install RED THREADS
 
+## Start with your question
+
+[Download the v0.2.0 complete kit](https://github.com/Stunspot/red-threads/releases/download/v0.2.0/red-threads-v0.2.0.zip) and extract it into a new folder. With Python 3.10 or newer available, open `RED-THREADS-v0.2.0/codex/red-threads/workspace/Open Red Threads.cmd` on Windows. The macOS entry is `Open Red Threads.command`; native macOS execution remains untested.
+
+Choose **New inquiry**, enter a question, then use **Add a source or note** before naming entities and connecting them with a sourced relationship. The existing interactive atlas shows the result. **Saved on this computer** confirms a successful save outside the installation; closing and reopening the launcher returns to your collection. You do not need to manufacture a case JSON first. Follow the [app workflow guide](../src/red-threads/workspace/README.md) for supported documents, limits, case export, and recovery.
+
+
 Install the complete `red-threads` skill folder, then confirm that your host can discover and use it. An ordinary chat attachment can provide reference material; it does not by itself register a skill.
 
 ## Before you start
 
-[Download the v0.1.1 complete kit ZIP](https://github.com/Stunspot/red-threads/releases/download/v0.1.1/red-threads-v0.1.1.zip). Its root folder is `RED-THREADS-v0.1.1`. Install the complete `codex/red-threads` runtime containing `SKILL.md`, references, knowledge, scripts, assets, examples and license notices. The same root includes raw source and rebuild tools. Keep the runtime folder intact.
+[Download the v0.2.0 complete kit ZIP](https://github.com/Stunspot/red-threads/releases/download/v0.2.0/red-threads-v0.2.0.zip). Its root folder is `RED-THREADS-v0.2.0`. Install the complete `codex/red-threads` runtime containing `SKILL.md`, references, knowledge, scripts, assets, examples and license notices. The same root includes raw source and rebuild tools. Keep the runtime folder intact.
 
 You can also use the Codex installer route in this guide or the maintained [GitHub source folder](https://github.com/Stunspot/red-threads/tree/main/src/red-threads). To obtain a local source copy with Git:
 
@@ -42,7 +49,7 @@ After using the installer, perform the same discovery and first-case checks in s
 
 ## Claude: uploaded custom skill
 
-Download the complete kit, then use its nested `claude/red-threads-v0.1.1.zip` for this upload route.
+Download the complete kit, then use its nested `claude/red-threads-v0.2.0.zip` for this upload route.
 
 1. Enable **Code execution and file creation** in **Settings > Capabilities**. Organization settings may govern availability.
 2. Open **Customize > Skills**, select **+**, then **+ Create skill**, then **Upload a skill**.
@@ -75,5 +82,5 @@ Continue with [your first case](first-case.md). If discovery, Python, or renderi
 
 Before replacing an installed copy, finish the current pass and save the case, evidence notes, and views in your workspace. Preserve the old skill folder separately if you need rollback. Replace the installed folder with the complete new release, then repeat discovery and the fictional check.
 
-To remove a local skill, remove only its installed `red-threads` folder. For an uploaded skill, disable or remove it through the host's skills management interface. Your cases remain in their separate workspace. Read the new release's changelog before migrating case data; v0.1.1 retains case format 1.
+To remove a local skill, remove only its installed `red-threads` folder. For an uploaded skill, disable or remove it through the host's skills management interface. Your cases remain in their separate workspace. Read the new release's changelog before migrating case data; v0.2.0 retains case format 1.
 The current full-source kit can be rebuilt as described in [Rebuild the current kit](source-kit.md). Native atlas entries are explained in [Recognizable entries](native-entries.md).

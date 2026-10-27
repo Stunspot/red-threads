@@ -1,5 +1,10 @@
 # RED THREADS — Conspiracy Unraveler
 
+## Start with your question
+
+Open the portable inquiry desk at `codex/red-threads/workspace/Open Red Threads.cmd` (Windows) or `Open Red Threads.command` (macOS) in the extracted release. Start an inquiry from a question, add a source note or ordinary document, name entities, and describe a typed relationship. The existing interactive atlas shows the result. You do not need to manufacture a case JSON first. Follow the [app workflow guide](src/red-threads/workspace/README.md) for saving, return, ordinary inputs and recovery.
+
+
 **Pull the thread. Find the mechanism.**
 
 ![RED THREADS investigative artwork: an investigator studies a network of people, institutions, and red connections](docs/assets/red-threads.png)
@@ -8,7 +13,7 @@ A grant. A board seat. A shared adviser. Three articles repeating one claim. Int
 
 RED THREADS gives your AI investigative craft for following money, resources, obligations, influence, and decision rights. It helps turn a hunch or a pile of records into a source-linked case, competing explanations, useful next leads, and an interactive atlas you can inspect offline.
 
-**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.1.1](https://github.com/Stunspot/red-threads/releases/download/v0.1.1/red-threads-v0.1.1.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
+**[Explore the fictional demo](https://stunspot.github.io/red-threads/demo.html)** · **[Download v0.2.0](https://github.com/Stunspot/red-threads/releases/download/v0.2.0/red-threads-v0.2.0.zip)** · **[Install](documentation/installation.md)** · **[Run your first case](documentation/first-case.md)**
 
 ## See what a connection actually carries
 

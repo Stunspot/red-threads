@@ -1,5 +1,10 @@
 # Explore your first case
 
+## Start with your question
+
+Open the portable inquiry desk at `codex/red-threads/workspace/Open Red Threads.cmd` (Windows) or `Open Red Threads.command` (macOS) in the extracted release. Start an inquiry from a question, add a source note or ordinary document, name entities, and describe a typed relationship. The existing interactive atlas shows the result. You do not need to manufacture a case JSON first. Follow the [app workflow guide](../src/red-threads/workspace/README.md) for saving, return, ordinary inputs and recovery.
+
+
 Start with [the fictional Meridian atlas](https://stunspot.github.io/red-threads/demo.html). You can explore that generated result without installing a skill, running Python, or supplying private records. Every name, document, amount, and quotation in this example is invented teaching material.
 
 The question is concrete: **who can influence a proposed compute-licensing rule, by which mechanism, and what would distinguish broad funder direction from narrower control or independent agreement?**
